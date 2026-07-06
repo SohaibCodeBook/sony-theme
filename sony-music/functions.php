@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SONY_MUSIC_VERSION', '1.0.9' );
+define( 'SONY_MUSIC_VERSION', '1.1.0' );
 define( 'SONY_MUSIC_DIR', get_template_directory() );
 define( 'SONY_MUSIC_URI', get_template_directory_uri() );
 
@@ -30,6 +30,7 @@ require_once SONY_MUSIC_DIR . '/inc/home-welcome.php';
 require_once SONY_MUSIC_DIR . '/inc/career.php';
 require_once SONY_MUSIC_DIR . '/inc/faq.php';
 require_once SONY_MUSIC_DIR . '/inc/footer.php';
+require_once SONY_MUSIC_DIR . '/inc/contact.php';
 require_once SONY_MUSIC_DIR . '/inc/logo.php';
 require_once SONY_MUSIC_DIR . '/inc/lang-fallback.php';
 require_once SONY_MUSIC_DIR . '/inc/menu-fallback.php';
@@ -110,6 +111,23 @@ function sony_music_enqueue_assets() {
 		sony_music_asset_version( '/assets/js/main.js' ),
 		true
 	);
+
+	if ( is_page( 'contact' ) ) {
+		wp_enqueue_style(
+			'sony-music-contact',
+			SONY_MUSIC_URI . '/assets/css/contact.css',
+			array( 'sony-music-style' ),
+			sony_music_asset_version( '/assets/css/contact.css' )
+		);
+
+		wp_enqueue_script(
+			'sony-music-contact-accordion',
+			SONY_MUSIC_URI . '/assets/js/faq.js',
+			array(),
+			sony_music_asset_version( '/assets/js/faq.js' ),
+			true
+		);
+	}
 
 	if ( is_page( 'faq' ) ) {
 		wp_enqueue_style(

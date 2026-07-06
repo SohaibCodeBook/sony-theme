@@ -1,0 +1,248 @@
+/**
+ * Contact page styles — matches sonymusic.eu/contact/
+ */
+
+.contact-container .page-title {
+	color: #e43222;
+	font-size: 38px;
+	line-height: 48px;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+	margin: 0;
+}
+
+.contact-content-wrap {
+	padding-bottom: 60px;
+}
+
+.contact-offices .contact-address,
+.contact-offices p {
+	margin: 0;
+	font-size: 38px;
+	line-height: 48px;
+}
+
+.contact-offices a {
+	color: #e43222;
+}
+
+.contact-spacer {
+	height: 40px;
+}
+
+.contact-accordion {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.contact-accordion .accordion-wrapper {
+	border-top: 2px solid #000;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section {
+	position: relative;
+	border-bottom: 2px solid #000;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__title {
+	font-size: 60px;
+	line-height: 65px;
+	padding: 25px 140px 25px 0;
+	cursor: pointer;
+	transition: all 0.25s linear;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__title:hover {
+	color: #e43222;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__title:hover .accordion-section__nav i {
+	border-color: #e43222;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__title:hover .accordion-section__nav i::after,
+.contact-accordion .accordion-wrapper .accordion-section__title:hover .accordion-section__nav i::before {
+	background-color: #e43222;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__content {
+	font-size: 38px;
+	line-height: 48px;
+	padding: 10px 140px 60px 0;
+	display: none;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__content a {
+	color: #e43222;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__content p,
+.contact-accordion .accordion-wrapper .accordion-section__content ul {
+	margin: 0 0 38px;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__content ul {
+	list-style: none;
+	padding: 0;
+	font-weight: 400;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__content li {
+	margin: 0 0 0.5em;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__nav {
+	position: absolute;
+	bottom: 50%;
+	right: 30px;
+	transform: translateY(50%);
+	color: inherit;
+	transition: all 0.3s linear;
+	width: 60px;
+	height: 60px;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__nav i {
+	display: inline-block;
+	font-style: normal;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #000;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 56px;
+	position: relative;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__nav i::before,
+.contact-accordion .accordion-wrapper .accordion-section__nav i::after {
+	content: "";
+	width: 2px;
+	height: 40%;
+	background-color: #000;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-1px) rotate(90deg);
+}
+
+.contact-accordion .accordion-wrapper .accordion-section__nav i::after {
+	transform: translateX(-1px) rotate(0deg);
+}
+
+.contact-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav {
+	bottom: 60px;
+}
+
+.contact-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav i::after {
+	transform: translateX(-1px) rotate(90deg);
+}
+
+@media screen and (max-width: 991px) {
+	.contact-container .page-title {
+		font-size: 32px;
+		line-height: 40px;
+		padding: 30px 0;
+	}
+
+	.contact-offices .contact-address,
+	.contact-offices p {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__title {
+		font-size: 38px;
+		line-height: 48px;
+		padding: 20px 90px 20px 0;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__content {
+		font-size: 28px;
+		line-height: 32px;
+		padding: 0 0 80px;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__content p,
+	.contact-accordion .accordion-wrapper .accordion-section__content ul {
+		margin-bottom: 28px;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__nav {
+		right: 0;
+		width: 48px;
+		height: 48px;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav {
+		bottom: 45px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.contact-container .page-title {
+		font-size: 26px;
+		line-height: 32px;
+		padding: 20px 0;
+	}
+
+	.contact-offices .contact-address,
+	.contact-offices p {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.contact-accordion .accordion-wrapper {
+		border-top: 1px solid #000;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section {
+		border-bottom: 1px solid #000;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__title {
+		font-size: 28px;
+		line-height: 36px;
+		padding: 10px 70px 10px 0;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__content {
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__content p,
+	.contact-accordion .accordion-wrapper .accordion-section__content ul {
+		margin-bottom: 22px;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__nav {
+		width: 35px;
+		height: 35px;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__nav i {
+		border: 1px solid #000;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section__nav i::before,
+	.contact-accordion .accordion-wrapper .accordion-section__nav i::after {
+		width: 1px;
+	}
+
+	.contact-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav {
+		bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.contact-offices .contact-address,
+	.contact-offices p {
+		font-size: 20px;
+		line-height: 26px;
+	}
+}
