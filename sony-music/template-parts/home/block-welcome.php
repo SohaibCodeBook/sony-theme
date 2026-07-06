@@ -28,8 +28,14 @@ $title = page_home( 'welcome_title', 'Welcome to Sony Music' );
 		<?php endif; ?>
 
 		<div class="section-welcome__gallery">
-			<?php foreach ( $gallery as $image ) : ?>
-				<figure class="section-welcome__gallery-item">
+			<?php foreach ( $gallery as $index => $image ) : ?>
+				<?php
+				$item_class = 'section-welcome__gallery-item';
+				if ( 3 === $index ) {
+					$item_class .= ' section-welcome__gallery-item--wide';
+				}
+				?>
+				<figure class="<?php echo esc_attr( $item_class ); ?>">
 					<img src="<?php echo esc_url( $image ); ?>" alt="<?php echo esc_attr( $title ); ?>" loading="lazy">
 				</figure>
 			<?php endforeach; ?>
