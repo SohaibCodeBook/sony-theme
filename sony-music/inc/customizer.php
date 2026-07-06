@@ -171,6 +171,55 @@ function sony_music_customize_register( $wp_customize ) {
 			'type'    => 'url',
 		)
 	);
+
+	// Offcanvas footer links section.
+	$wp_customize->add_section(
+		'sony_music_offcanvas',
+		array(
+			'title'    => __( 'Offcanvas Menu Footer Links', 'sony-music' ),
+			'priority' => 25,
+		)
+	);
+
+	for ( $i = 1; $i <= 3; $i++ ) {
+		$defaults = array(
+			1 => array( 'Contact', home_url( '/contact/' ) ),
+			2 => array( 'Instagram', 'https://www.instagram.com/sonymusicde' ),
+			3 => array( 'AI Usage Terms', home_url( '/ai-usage-terms/' ) ),
+		);
+
+		$wp_customize->add_setting(
+			"sony_footer_link_{$i}_label",
+			array(
+				'default'           => $defaults[ $i ][0],
+				'sanitize_callback' => 'sanitize_text_field',
+			)
+		);
+		$wp_customize->add_control(
+			"sony_footer_link_{$i}_label",
+			array(
+				'label'   => sprintf( __( 'Footer link %d label', 'sony-music' ), $i ),
+				'section' => 'sony_music_offcanvas',
+				'type'    => 'text',
+			)
+		);
+
+		$wp_customize->add_setting(
+			"sony_footer_link_{$i}_url",
+			array(
+				'default'           => $defaults[ $i ][1],
+				'sanitize_callback' => 'esc_url_raw',
+			)
+		);
+		$wp_customize->add_control(
+			"sony_footer_link_{$i}_url",
+			array(
+				'label'   => sprintf( __( 'Footer link %d URL', 'sony-music' ), $i ),
+				'section' => 'sony_music_offcanvas',
+				'type'    => 'url',
+			)
+		);
+	}
 }
 add_action( 'customize_register', 'sony_music_customize_register' );
 
@@ -201,6 +250,12 @@ function site_data( $key ) {
 		'lang_url'            => 'sony_lang_url',
 		'lang_alt_label'      => 'sony_lang_alt_label',
 		'lang_alt_url'        => 'sony_lang_alt_url',
+		'footer_link_1_label' => 'sony_footer_link_1_label',
+		'footer_link_1_url'   => 'sony_footer_link_1_url',
+		'footer_link_2_label' => 'sony_footer_link_2_label',
+		'footer_link_2_url'   => 'sony_footer_link_2_url',
+		'footer_link_3_label' => 'sony_footer_link_3_label',
+		'footer_link_3_url'   => 'sony_footer_link_3_url',
 	);
 
 	if ( ! isset( $map[ $key ] ) ) {

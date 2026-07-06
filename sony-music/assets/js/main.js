@@ -10,7 +10,10 @@
 	var langWrap = document.getElementById('menu-lang');
 	var navToggle = document.getElementById('nav-toggle');
 	var offcanvas = document.getElementById('offcanvas-nav');
+	var offcanvasOverlay = document.getElementById('offcanvas-overlay');
+	var offcanvasClose = document.getElementById('offcanvas-close');
 	var headerMain = document.getElementById('header-main');
+	var mainMenu = document.getElementById('menu-main-menu');
 
 	/**
 	 * Toggle expandable search field.
@@ -81,6 +84,88 @@
 	}
 
 	/**
+	 * Open offcanvas menu.
+	 */
+	function openOffcanvas() {
+		document.body.classList.add('off-canvas');
+		navToggle.classList.add('open');
+		offcanvas.setAttribute('aria-hidden', 'false');
+		offcanvasOverlay.classList.add('is-visible');
+		offcanvasOverlay.setAttribute('aria-hidden', 'false');
+		navToggle.setAttribute('aria-expanded', 'true');
+	}
+
+	/**
+	 * Close offcanvas menu.
+	 */
+	function closeOffcanvas() {
+		document.body.classList.remove('off-canvas');
+		navToggle.classList.remove('open');
+		offcanvas.setAttribute('aria-hidden', 'true');
+		offcanvasOverlay.classList.remove('is-visible');
+		offcanvasOverlay.setAttribute('aria-hidden', 'true');
+		navToggle.setAttribute('aria-expanded', 'false');
+	}
+
+	/**
+	 * Toggle submenu for items with children.
+	 *
+	 * @param {HTMLElement} parentItem List item element.
+	 * @param {HTMLElement|null} arrow    Optional arrow toggle element.
+	 */
+	function toggleSubmenu(parentItem, arrow) {
+		var submenu = parentItem.querySelector(':scope > .sub-menu');
+		if (!submenu) {
+			return;
+		}
+
+		var isOpen = submenu.classList.toggle('is-open');
+
+		if (arrow) {
+			arrow.textContent = isOpen ? '↑' : '↓';
+			arrow.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+		}
+	}
+
+	/**
+	 * Append dropdown arrows and bind submenu toggles.
+	 */
+	function initOffcanvasSubmenus() {
+		if (!mainMenu) {
+			return;
+		}
+
+		var parents = mainMenu.querySelectorAll('.menu-item-has-children');
+
+		parents.forEach(function (item) {
+			if (item.querySelector(':scope > .nav-sub')) {
+				return;
+			}
+
+			var arrow = document.createElement('a');
+			arrow.href = '#';
+			arrow.className = 'nav-sub';
+			arrow.setAttribute('aria-label', 'Toggle submenu');
+			arrow.setAttribute('aria-expanded', 'false');
+			arrow.textContent = '↓';
+			item.appendChild(arrow);
+
+			arrow.addEventListener('click', function (e) {
+				e.preventDefault();
+				toggleSubmenu(item, arrow);
+			});
+
+			var parentLink = item.querySelector(':scope > a');
+			if (parentLink) {
+				parentLink.addEventListener('click', function (e) {
+					e.preventDefault();
+					toggleSubmenu(item, arrow);
+				});
+			}
+		});
+	}
+
+	/**
 	 * Offcanvas navigation toggle.
 	 */
 	function initNavToggle() {
@@ -90,20 +175,31 @@
 
 		navToggle.addEventListener('click', function (e) {
 			e.preventDefault();
-			var isOpen = document.body.classList.toggle('nav-open');
-			navToggle.classList.toggle('open', isOpen);
-			offcanvas.classList.toggle('is-open', isOpen);
-			navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-			offcanvas.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+
+			if (document.body.classList.contains('off-canvas')) {
+				closeOffcanvas();
+			} else {
+				openOffcanvas();
+			}
 		});
 
+		if (offcanvasClose) {
+			offcanvasClose.addEventListener('click', function (e) {
+				e.preventDefault();
+				closeOffcanvas();
+			});
+		}
+
+		if (offcanvasOverlay) {
+			offcanvasOverlay.addEventListener('click', function (e) {
+				e.preventDefault();
+				closeOffcanvas();
+			});
+		}
+
 		document.addEventListener('keydown', function (e) {
-			if (e.key === 'Escape' && document.body.classList.contains('nav-open')) {
-				document.body.classList.remove('nav-open');
-				navToggle.classList.remove('open');
-				offcanvas.classList.remove('is-open');
-				navToggle.setAttribute('aria-expanded', 'false');
-				offcanvas.setAttribute('aria-hidden', 'true');
+			if (e.key === 'Escape' && document.body.classList.contains('off-canvas')) {
+				closeOffcanvas();
 			}
 		});
 	}
@@ -123,10 +219,13 @@
 
 			if (current > 200 && current < lastScroll) {
 				headerMain.classList.add('fixed', 'show-down');
+				navToggle.classList.add('fixed', 'show-down');
 			} else {
 				headerMain.classList.remove('show-down');
+				navToggle.classList.remove('show-down');
 				if (current <= 200) {
 					headerMain.classList.remove('fixed');
+					navToggle.classList.remove('fixed');
 				}
 			}
 
@@ -136,6 +235,7 @@
 
 	initSearch();
 	initLangMenu();
+	initOffcanvasSubmenus();
 	initNavToggle();
 	initStickyHeader();
 })();

@@ -69,20 +69,43 @@
 <div id="offcanvas-nav" aria-hidden="true">
 	<div class="offcanvas-nav__header">
 		<?php sony_music_logo(); ?>
+		<button type="button" id="offcanvas-close" class="offcanvas-close" aria-label="<?php esc_attr_e( 'Close menu', 'sony-music' ); ?>">&times;</button>
 	</div>
-	<div class="nav-container">
-		<?php
-		if ( has_nav_menu( 'primary' ) ) {
+	<div class="offcanvas-content">
+		<div class="nav-container">
+			<?php
 			wp_nav_menu(
 				array(
 					'theme_location' => 'primary',
 					'container'      => 'nav',
-					'menu_class'     => 'menu offcanvas-menu',
+					'container_class'=> 'menu-main-menu-container',
+					'menu_id'        => 'menu-main-menu',
+					'menu_class'     => 'menu',
 					'depth'          => 2,
-					'fallback_cb'    => false,
+					'fallback_cb'    => 'sony_music_primary_menu_fallback',
 				)
 			);
-		}
-		?>
+			?>
+		</div>
+		<div class="inner-links">
+			<?php
+			if ( has_nav_menu( 'footer' ) ) {
+				wp_nav_menu(
+					array(
+						'theme_location' => 'footer',
+						'container'      => 'nav',
+						'container_class'=> 'menu-footer-menu-left-container',
+						'menu_id'        => 'top-inner-menu',
+						'menu_class'     => 'menu',
+						'depth'          => 1,
+						'fallback_cb'    => 'sony_music_footer_menu_fallback',
+					)
+				);
+			} else {
+				sony_music_footer_menu_fallback();
+			}
+			?>
+		</div>
 	</div>
 </div>
+<div id="offcanvas-overlay" aria-hidden="true"></div>

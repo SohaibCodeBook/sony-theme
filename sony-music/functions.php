@@ -14,6 +14,7 @@ define( 'SONY_MUSIC_URI', get_template_directory_uri() );
 require_once SONY_MUSIC_DIR . '/inc/customizer.php';
 require_once SONY_MUSIC_DIR . '/inc/logo.php';
 require_once SONY_MUSIC_DIR . '/inc/lang-fallback.php';
+require_once SONY_MUSIC_DIR . '/inc/menu-fallback.php';
 require_once SONY_MUSIC_DIR . '/inc/setup-wizard.php';
 require_once SONY_MUSIC_DIR . '/inc/seo.php';
 
@@ -35,7 +36,8 @@ function sony_music_setup() {
 
 	register_nav_menus(
 		array(
-			'primary' => __( 'Primary Menu', 'sony-music' ),
+			'primary' => __( 'Primary Menu (Offcanvas)', 'sony-music' ),
+			'footer'  => __( 'Offcanvas Footer Links', 'sony-music' ),
 			'lang'    => __( 'Language Menu', 'sony-music' ),
 		)
 	);
