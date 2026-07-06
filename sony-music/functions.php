@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SONY_MUSIC_VERSION', '1.0.8' );
+define( 'SONY_MUSIC_VERSION', '1.0.9' );
 define( 'SONY_MUSIC_DIR', get_template_directory() );
 define( 'SONY_MUSIC_URI', get_template_directory_uri() );
 
@@ -29,6 +29,7 @@ require_once SONY_MUSIC_DIR . '/inc/home-videos.php';
 require_once SONY_MUSIC_DIR . '/inc/home-welcome.php';
 require_once SONY_MUSIC_DIR . '/inc/career.php';
 require_once SONY_MUSIC_DIR . '/inc/faq.php';
+require_once SONY_MUSIC_DIR . '/inc/footer.php';
 require_once SONY_MUSIC_DIR . '/inc/logo.php';
 require_once SONY_MUSIC_DIR . '/inc/lang-fallback.php';
 require_once SONY_MUSIC_DIR . '/inc/menu-fallback.php';
@@ -53,9 +54,11 @@ function sony_music_setup() {
 
 	register_nav_menus(
 		array(
-			'primary' => __( 'Primary Menu (Offcanvas)', 'sony-music' ),
-			'footer'  => __( 'Offcanvas Footer Links', 'sony-music' ),
-			'lang'    => __( 'Language Menu', 'sony-music' ),
+			'primary'     => __( 'Primary Menu (Offcanvas)', 'sony-music' ),
+			'footer'      => __( 'Offcanvas Footer Links', 'sony-music' ),
+			'footer_left' => __( 'Site Footer — Left Column', 'sony-music' ),
+			'footer_right'  => __( 'Site Footer — Right Column', 'sony-music' ),
+			'lang'        => __( 'Language Menu', 'sony-music' ),
 		)
 	);
 }
@@ -91,6 +94,13 @@ function sony_music_enqueue_assets() {
 		SONY_MUSIC_URI . '/assets/css/welcome.css',
 		array( 'sony-music-style' ),
 		sony_music_asset_version( '/assets/css/welcome.css' )
+	);
+
+	wp_enqueue_style(
+		'sony-music-footer',
+		SONY_MUSIC_URI . '/assets/css/footer.css',
+		array( 'sony-music-style' ),
+		sony_music_asset_version( '/assets/css/footer.css' )
 	);
 
 	wp_enqueue_script(

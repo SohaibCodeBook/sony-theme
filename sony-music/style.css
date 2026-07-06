@@ -3,7 +3,7 @@ Theme Name: Sony Music
 Theme URI: https://sonymusic.eu
 Author: Custom
 Description: Sony Music Entertainment Europe clone theme.
-Version: 1.0.8
+Version: 1.0.9
 Requires at least: 6.0
 Tested up to: 6.7
 Requires PHP: 7.4
@@ -1018,5 +1018,7 @@ body.has-topbar .nav-toggle.open {
    ========================================================================== */
 
 #main {
-	min-height: 50vh;
+	position: relative;
+	z-index: 3;
+	min-height: calc(100vh - 145px);
 }

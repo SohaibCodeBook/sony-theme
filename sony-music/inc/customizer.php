@@ -172,12 +172,13 @@ function sony_music_customize_register( $wp_customize ) {
 		)
 	);
 
-	// Offcanvas footer links section.
+	// Offcanvas footer links (legacy section — offcanvas uses Site Footer left links).
 	$wp_customize->add_section(
 		'sony_music_offcanvas',
 		array(
-			'title'    => __( 'Offcanvas Menu Footer Links', 'sony-music' ),
-			'priority' => 25,
+			'title'       => __( 'Offcanvas Menu Footer Links', 'sony-music' ),
+			'description' => __( 'Offcanvas inner links now use the Site Footer left column settings.', 'sony-music' ),
+			'priority'    => 25,
 		)
 	);
 

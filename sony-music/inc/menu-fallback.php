@@ -45,26 +45,31 @@ function sony_music_primary_menu_fallback() {
 }
 
 /**
- * Footer / inner links menu fallback.
+ * Offcanvas inner links fallback — uses site footer left column links.
  */
 function sony_music_footer_menu_fallback() {
-	$items = array(
-		array(
-			'label' => site_data( 'footer_link_1_label' ) ?: 'Contact',
-			'url'   => site_data( 'footer_link_1_url' ) ?: home_url( '/contact/' ),
-		),
-		array(
-			'label'  => site_data( 'footer_link_2_label' ) ?: 'Instagram',
-			'url'    => site_data( 'footer_link_2_url' ) ?: 'https://www.instagram.com/sonymusicde',
-			'target' => '_blank',
-		),
-		array(
-			'label' => site_data( 'footer_link_3_label' ) ?: 'AI Usage Terms',
-			'url'   => site_data( 'footer_link_3_url' ) ?: home_url( '/ai-usage-terms/' ),
-		),
-	);
+	$links = sony_music_get_footer_left_links();
 
-	sony_music_render_menu_list( $items, 'top-inner-menu', false );
+	if ( empty( $links ) ) {
+		return;
+	}
+
+	echo '<nav class="menu-footer-menu-left-container">';
+	printf( '<ul id="%s" class="menu">', esc_attr( 'top-inner-menu' ) );
+
+	foreach ( $links as $link ) {
+		echo '<li class="menu-item">';
+		$target = ! empty( $link['target'] ) ? ' target="' . esc_attr( $link['target'] ) . '" rel="noopener noreferrer"' : '';
+		printf(
+			'<a href="%s"%s>%s</a>',
+			esc_url( $link['url'] ),
+			$target,
+			esc_html( $link['label'] )
+		);
+		echo '</li>';
+	}
+
+	echo '</ul></nav>';
 }
 
 /**

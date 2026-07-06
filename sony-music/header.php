@@ -92,10 +92,10 @@
 		</div>
 		<div class="inner-links">
 			<?php
-			if ( has_nav_menu( 'footer' ) ) {
+			if ( has_nav_menu( 'footer_left' ) ) {
 				wp_nav_menu(
 					array(
-						'theme_location' => 'footer',
+						'theme_location' => 'footer_left',
 						'container'      => 'nav',
 						'container_class'=> 'menu-footer-menu-left-container',
 						'menu_id'        => 'top-inner-menu',

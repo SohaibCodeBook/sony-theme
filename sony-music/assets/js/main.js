@@ -233,9 +233,44 @@
 		});
 	}
 
+	/**
+	 * Footer scroll-to-top buttons.
+	 */
+	function initFooterScrollUp() {
+		var upButtons = document.querySelectorAll('#footer-nav-up, #footer-nav-up-mobile');
+
+		upButtons.forEach(function (button) {
+			button.addEventListener('click', function (e) {
+				e.preventDefault();
+				window.scrollTo({ top: 0, behavior: 'smooth' });
+			});
+		});
+	}
+
+	/**
+	 * Reserve space so fixed footer does not cover page content.
+	 */
+	function initFooterSpacing() {
+		var footer = document.getElementById('footer');
+		var main = document.getElementById('main');
+
+		if (!footer || !main) {
+			return;
+		}
+
+		function applySpacing() {
+			main.style.paddingBottom = footer.offsetHeight + 'px';
+		}
+
+		applySpacing();
+		window.addEventListener('resize', applySpacing);
+	}
+
 	initSearch();
 	initLangMenu();
 	initOffcanvasSubmenus();
 	initNavToggle();
 	initStickyHeader();
+	initFooterScrollUp();
+	initFooterSpacing();
 })();

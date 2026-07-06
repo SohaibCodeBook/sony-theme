@@ -1,9 +1,13 @@
-	<footer id="footer" class="site-footer">
-		<div class="container">
-			<p class="mb-0">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?></p>
-		</div>
-	</footer>
+<?php
+/**
+ * Footer template.
+ *
+ * @package Sony_Music
+ */
 
-	<?php wp_footer(); ?>
+sony_music_render_site_footer();
+
+wp_footer();
+?>
 </body>
 </html>
