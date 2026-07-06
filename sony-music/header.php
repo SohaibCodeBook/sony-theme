@@ -27,7 +27,10 @@
 				<div class="header-controls">
 					<div class="top-search" id="top-search">
 						<button type="button" id="search-toggle" aria-label="<?php esc_attr_e( 'Toggle search', 'sony-music' ); ?>" aria-expanded="false">
-							<i class="fa-regular fa-magnifying-glass" aria-hidden="true"></i>
+							<svg class="search-icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+								<circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+								<line x1="15.5" y1="15.5" x2="20" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+							</svg>
 						</button>
 						<input
 							type="text"

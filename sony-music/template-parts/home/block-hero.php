@@ -9,7 +9,14 @@
 
 defined( 'ABSPATH' ) || exit;
 
-$slides = isset( $args['slides'] ) ? $args['slides'] : sony_music_get_hero_slides();
+// WordPress may pass slides via extract() or $args (get_template_part third param).
+if ( ! isset( $slides ) || empty( $slides ) ) {
+	if ( isset( $args ) && is_array( $args ) && ! empty( $args['slides'] ) ) {
+		$slides = $args['slides'];
+	} else {
+		$slides = sony_music_get_hero_slides();
+	}
+}
 
 if ( empty( $slides ) ) {
 	return;

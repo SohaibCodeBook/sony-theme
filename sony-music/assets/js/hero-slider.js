@@ -104,7 +104,7 @@
 		this.newsSlider.classList.add('hide-arrow');
 
 		if (this.arrowsContainer) {
-			this.arrowsContainer.style.display = 'block';
+			this.arrowsContainer.classList.add('is-visible');
 		}
 
 		this.current = index;
@@ -114,7 +114,7 @@
 		window.setTimeout(function () {
 			self.newsSlider.classList.remove('hide-arrow');
 			if (self.arrowsContainer) {
-				self.arrowsContainer.style.display = 'none';
+				self.arrowsContainer.classList.remove('is-visible');
 			}
 			self.isAnimating = false;
 		}, this.transitionSpeed);
