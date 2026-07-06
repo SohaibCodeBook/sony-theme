@@ -1,0 +1,90 @@
+Build a complete custom WordPress PHP theme from scratch.
+
+I will provide:
+- [PROJECT NAME]
+- [client_requirements.txt or brief]
+- [logo file path, if any]
+- [brand colors / fonts, if any]
+
+Do NOT assume content from any previous project. Use only what I provide in this chat and attached files.
+
+---
+
+## PROJECT TYPE
+
+- WordPress **classic PHP theme** (NOT block theme, NOT Elementor, NOT page builder)
+- Corporate / business website (NOT e-commerce unless I say otherwise)
+- Must work immediately after theme activation
+- Client must edit content from **Appearance → Customize** without touching code
+
+---
+
+## TECH STACK
+
+- PHP templates + WordPress APIs
+- Bootstrap 5 (CDN) for layout
+- Font Awesome 6 (CDN) for icons
+- One main stylesheet: `style.css` with CSS variables
+- Vanilla JS only (no jQuery)
+- Google Fonts as specified in brief
+
+---
+
+## REQUIRED FILE STRUCTURE
+
+theme-name/ ├── style.css ├── functions.php ├── header.php ├── footer.php ├── front-page.php ├── index.php ├── page.php ├── single.php ├── search.php ├── 404.php ├── page-[slug].php (one per major page in brief) ├── assets/ │ ├── js/main.js │ └── images/ └── inc/ ├── customizer.php (all editable settings + helpers) ├── logo.php (logo output only) ├── setup-wizard.php (auto pages + menu on activation) └── seo.php (optional basic meta)
+
+
+
+---
+
+## ARCHITECTURE RULES (must follow)
+
+### 1. Customizer-first content
+- Register ALL editable text, URLs, images in `inc/customizer.php`
+- Group into clear sections (Global Contact, Homepage, Page X, Social, etc.)
+- Every setting needs: default value, sanitize callback, label
+- Use built-in controls: text, textarea, url, image
+- Templates must read from helper functions — **never hardcode client copy**
+
+Helper pattern:
+```php
+function site_data( $key ) { ... }           // global
+function page_home( $key, $default = '' ) { ... }
+function page_about( $key, $default = '' ) { ... }
+// one helper per page/section as needed
+
+
+
+2. Setup wizard
+On theme activation, automatically:
+
+Create all required pages from brief
+Assign correct page templates
+Build primary navigation menu
+Set static front page
+Store theme_setup_done option to prevent duplicates
+
+
+3. Navigation
+Register primary menu location
+Custom nav walker for active states
+Mobile drawer + hamburger
+Fallback menu if none assigned
+
+
+
+6. Forms
+AJAX contact/quote forms via wp_ajax_*
+Nonce via wp_localize_script
+Sanitize + validate all fields
+Send to email from Customizer setting
+
+
+7. Code quality
+defined('ABSPATH') || exit; in all inc files
+Escape output: esc_html, esc_url, esc_attr
+No PHP warnings/errors
+Minimal scope — no over-engineering
+Match conventions within the theme once established
+Do NOT commit unless I ask
