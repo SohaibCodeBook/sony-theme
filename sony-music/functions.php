@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SONY_MUSIC_VERSION', '1.0.7' );
+define( 'SONY_MUSIC_VERSION', '1.0.8' );
 define( 'SONY_MUSIC_DIR', get_template_directory() );
 define( 'SONY_MUSIC_URI', get_template_directory_uri() );
 
@@ -28,6 +28,7 @@ require_once SONY_MUSIC_DIR . '/inc/home-releases.php';
 require_once SONY_MUSIC_DIR . '/inc/home-videos.php';
 require_once SONY_MUSIC_DIR . '/inc/home-welcome.php';
 require_once SONY_MUSIC_DIR . '/inc/career.php';
+require_once SONY_MUSIC_DIR . '/inc/faq.php';
 require_once SONY_MUSIC_DIR . '/inc/logo.php';
 require_once SONY_MUSIC_DIR . '/inc/lang-fallback.php';
 require_once SONY_MUSIC_DIR . '/inc/menu-fallback.php';
@@ -99,6 +100,23 @@ function sony_music_enqueue_assets() {
 		sony_music_asset_version( '/assets/js/main.js' ),
 		true
 	);
+
+	if ( is_page( 'faq' ) ) {
+		wp_enqueue_style(
+			'sony-music-faq',
+			SONY_MUSIC_URI . '/assets/css/faq.css',
+			array( 'sony-music-style' ),
+			sony_music_asset_version( '/assets/css/faq.css' )
+		);
+
+		wp_enqueue_script(
+			'sony-music-faq',
+			SONY_MUSIC_URI . '/assets/js/faq.js',
+			array(),
+			sony_music_asset_version( '/assets/js/faq.js' ),
+			true
+		);
+	}
 
 	if ( is_page( 'career' ) ) {
 		wp_enqueue_style(

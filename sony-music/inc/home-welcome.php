@@ -31,7 +31,7 @@ function sony_music_default_welcome_links() {
 	return array(
 		array(
 			'label' => 'FAQ',
-			'url'   => '#',
+			'url'   => '/faq/',
 		),
 		array(
 			'label' => 'News',

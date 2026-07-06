@@ -1,0 +1,233 @@
+/**
+ * FAQ page styles — matches sonymusic.eu/faq/
+ */
+
+.faq-container .page-title {
+	color: #e43222;
+	font-size: 38px;
+	line-height: 48px;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+	margin: 0;
+}
+
+.faq-accordion-wrap {
+	padding-bottom: 60px;
+}
+
+.block-accordion {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.block-accordion .accordion-wrapper {
+	border-top: 2px solid #000;
+}
+
+.block-accordion .accordion-wrapper .accordion-section {
+	position: relative;
+	border-bottom: 2px solid #000;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__title {
+	font-size: 60px;
+	line-height: 65px;
+	padding: 25px 140px 25px 0;
+	cursor: pointer;
+	transition: all 0.25s linear;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__title:hover {
+	color: #e43222;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__title:hover .accordion-section__nav i {
+	border-color: #e43222;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__title:hover .accordion-section__nav i::after,
+.block-accordion .accordion-wrapper .accordion-section__title:hover .accordion-section__nav i::before {
+	background-color: #e43222;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__content {
+	font-size: 38px;
+	line-height: 48px;
+	padding: 10px 140px 60px 0;
+	display: none;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__content a {
+	color: #e43222;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__content p,
+.block-accordion .accordion-wrapper .accordion-section__content h3 {
+	margin: 0 0 38px;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__nav {
+	position: absolute;
+	bottom: 50%;
+	right: 30px;
+	transform: translateY(50%);
+	color: inherit;
+	transition: all 0.3s linear;
+	width: 60px;
+	height: 60px;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__nav i {
+	display: inline-block;
+	font-style: normal;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #000;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 56px;
+	position: relative;
+}
+
+.block-accordion .accordion-wrapper .accordion-section__nav i::before,
+.block-accordion .accordion-wrapper .accordion-section__nav i::after {
+	content: "";
+	width: 2px;
+	height: 40%;
+	background-color: #000;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-1px) rotate(90deg);
+}
+
+.block-accordion .accordion-wrapper .accordion-section__nav i::after {
+	transform: translateX(-1px) rotate(0deg);
+}
+
+.block-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav {
+	bottom: 60px;
+}
+
+.block-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav i::after {
+	transform: translateX(-1px) rotate(90deg);
+}
+
+/* FAQ-specific size overrides from live site */
+.faq-accordion .accordion-wrapper .accordion-section__title {
+	font-size: 28px;
+	line-height: 1.3;
+}
+
+.faq-accordion .accordion-section__content p,
+.faq-accordion .accordion-section__content h3 {
+	font-size: 28px;
+	line-height: 1.3;
+}
+
+@media screen and (max-width: 991px) {
+	.faq-container .page-title {
+		font-size: 32px;
+		line-height: 40px;
+		padding: 30px 0;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__title {
+		font-size: 38px;
+		line-height: 48px;
+		padding: 20px 90px 20px 0;
+	}
+
+	.faq-accordion .accordion-wrapper .accordion-section__title {
+		font-size: 24px;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__content {
+		font-size: 28px;
+		line-height: 32px;
+		padding: 0 0 80px;
+	}
+
+	.faq-accordion .accordion-section__content p,
+	.faq-accordion .accordion-section__content h3 {
+		font-size: 24px;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__content p,
+	.block-accordion .accordion-wrapper .accordion-section__content h3 {
+		margin: 0 0 28px;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__nav {
+		right: 0;
+		width: 48px;
+		height: 48px;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav {
+		bottom: 45px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.faq-container .page-title {
+		font-size: 26px;
+		line-height: 32px;
+		padding: 20px 0;
+	}
+
+	.block-accordion .accordion-wrapper {
+		border-top: 1px solid #000;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section {
+		border-bottom: 1px solid #000;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__title {
+		font-size: 28px;
+		line-height: 36px;
+		padding: 10px 70px 10px 0;
+	}
+
+	.faq-accordion .accordion-wrapper .accordion-section__title {
+		font-size: 20px;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__content {
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	.faq-accordion .accordion-section__content p,
+	.faq-accordion .accordion-section__content h3 {
+		font-size: 20px;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__content p,
+	.block-accordion .accordion-wrapper .accordion-section__content h3 {
+		margin: 0 0 22px;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__nav {
+		width: 35px;
+		height: 35px;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__nav i {
+		border: 1px solid #000;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section__nav i::before,
+	.block-accordion .accordion-wrapper .accordion-section__nav i::after {
+		width: 1px;
+	}
+
+	.block-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav {
+		bottom: 30px;
+	}
+}

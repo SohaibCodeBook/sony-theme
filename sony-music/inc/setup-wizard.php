@@ -23,6 +23,7 @@ function sony_music_required_pages() {
 		'Music Licensing'   => 'music-licensing',
 		'Circle Studios'    => 'company/circle-studios',
 		'Career'            => 'company/career',
+		'FAQ'               => 'faq',
 		'Contact'           => 'contact',
 		'AI Usage Terms'    => 'ai-usage-terms',
 	);
