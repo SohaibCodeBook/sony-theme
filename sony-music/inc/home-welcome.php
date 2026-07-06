@@ -39,7 +39,7 @@ function sony_music_default_welcome_links() {
 		),
 		array(
 			'label' => 'Careers',
-			'url'   => '#',
+			'url'   => '/company/career/',
 		),
 	);
 }
@@ -86,9 +86,14 @@ function sony_music_get_welcome_links() {
 			continue;
 		}
 
+		$url = page_home( "welcome_link_{$i}_url", $default['url'] ) ?: '#';
+		if ( '#' !== $url && 0 === strpos( $url, '/' ) ) {
+			$url = home_url( $url );
+		}
+
 		$links[] = array(
 			'label' => $label,
-			'url'   => page_home( "welcome_link_{$i}_url", $default['url'] ) ?: '#',
+			'url'   => $url,
 		);
 	}
 
