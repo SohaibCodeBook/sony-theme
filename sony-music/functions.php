@@ -12,6 +12,7 @@ define( 'SONY_MUSIC_DIR', get_template_directory() );
 define( 'SONY_MUSIC_URI', get_template_directory_uri() );
 
 require_once SONY_MUSIC_DIR . '/inc/customizer.php';
+require_once SONY_MUSIC_DIR . '/inc/home-hero.php';
 require_once SONY_MUSIC_DIR . '/inc/logo.php';
 require_once SONY_MUSIC_DIR . '/inc/lang-fallback.php';
 require_once SONY_MUSIC_DIR . '/inc/menu-fallback.php';
@@ -84,6 +85,16 @@ function sony_music_enqueue_assets() {
 		SONY_MUSIC_VERSION,
 		true
 	);
+
+	if ( is_front_page() ) {
+		wp_enqueue_script(
+			'sony-music-hero-slider',
+			SONY_MUSIC_URI . '/assets/js/hero-slider.js',
+			array(),
+			SONY_MUSIC_VERSION,
+			true
+		);
+	}
 
 	wp_localize_script(
 		'sony-music-main',

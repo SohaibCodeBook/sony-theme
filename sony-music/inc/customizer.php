@@ -224,6 +224,138 @@ function sony_music_customize_register( $wp_customize ) {
 add_action( 'customize_register', 'sony_music_customize_register' );
 
 /**
+ * Register homepage hero customizer settings.
+ *
+ * @param WP_Customize_Manager $wp_customize Customizer object.
+ */
+function sony_music_home_hero_customize_register( $wp_customize ) {
+	$wp_customize->add_section(
+		'sony_music_home_hero',
+		array(
+			'title'    => __( 'Homepage Hero News Slider', 'sony-music' ),
+			'priority' => 30,
+		)
+	);
+
+	$wp_customize->add_setting(
+		'sony_home_hero_autoplay',
+		array(
+			'default'           => 4000,
+			'sanitize_callback' => 'absint',
+		)
+	);
+	$wp_customize->add_control(
+		'sony_home_hero_autoplay',
+		array(
+			'label'       => __( 'Autoplay interval (ms)', 'sony-music' ),
+			'description' => __( 'Reference site uses 4000.', 'sony-music' ),
+			'section'     => 'sony_music_home_hero',
+			'type'        => 'number',
+		)
+	);
+
+	$wp_customize->add_setting(
+		'sony_home_hero_speed',
+		array(
+			'default'           => 1500,
+			'sanitize_callback' => 'absint',
+		)
+	);
+	$wp_customize->add_control(
+		'sony_home_hero_speed',
+		array(
+			'label'   => __( 'Transition speed (ms)', 'sony-music' ),
+			'section' => 'sony_music_home_hero',
+			'type'    => 'number',
+		)
+	);
+
+	$defaults = sony_music_default_hero_slides();
+
+	for ( $i = 1; $i <= 12; $i++ ) {
+		$default = isset( $defaults[ $i - 1 ] ) ? $defaults[ $i - 1 ] : array(
+			'title'    => '',
+			'url'      => '',
+			'category' => 'Company',
+			'image'    => '',
+		);
+
+		$wp_customize->add_setting(
+			"sony_home_hero_slide_{$i}_title",
+			array(
+				'default'           => $default['title'],
+				'sanitize_callback' => 'sanitize_text_field',
+			)
+		);
+		$wp_customize->add_control(
+			"sony_home_hero_slide_{$i}_title",
+			array(
+				'label'   => sprintf( __( 'Slide %d — Title', 'sony-music' ), $i ),
+				'section' => 'sony_music_home_hero',
+				'type'    => 'text',
+			)
+		);
+
+		$wp_customize->add_setting(
+			"sony_home_hero_slide_{$i}_url",
+			array(
+				'default'           => $default['url'],
+				'sanitize_callback' => 'esc_url_raw',
+			)
+		);
+		$wp_customize->add_control(
+			"sony_home_hero_slide_{$i}_url",
+			array(
+				'label'   => sprintf( __( 'Slide %d — Link URL', 'sony-music' ), $i ),
+				'section' => 'sony_music_home_hero',
+				'type'    => 'url',
+			)
+		);
+
+		$wp_customize->add_setting(
+			"sony_home_hero_slide_{$i}_category",
+			array(
+				'default'           => $default['category'],
+				'sanitize_callback' => 'sanitize_text_field',
+			)
+		);
+		$wp_customize->add_control(
+			"sony_home_hero_slide_{$i}_category",
+			array(
+				'label'   => sprintf( __( 'Slide %d — Category', 'sony-music' ), $i ),
+				'section' => 'sony_music_home_hero',
+				'type'    => 'select',
+				'choices' => array(
+					'Company' => 'Company',
+					'Artist'  => 'Artist',
+					'Other'   => 'Other',
+					'Label'   => 'Label',
+				),
+			)
+		);
+
+		$wp_customize->add_setting(
+			"sony_home_hero_slide_{$i}_image",
+			array(
+				'default'           => $default['image'],
+				'sanitize_callback' => 'esc_url_raw',
+			)
+		);
+		$wp_customize->add_control(
+			new WP_Customize_Image_Control(
+				$wp_customize,
+				"sony_home_hero_slide_{$i}_image",
+				array(
+					'label'   => sprintf( __( 'Slide %d — Background image', 'sony-music' ), $i ),
+					'section' => 'sony_music_home_hero',
+				)
+			)
+		);
+	}
+}
+add_action( 'customize_register', 'sony_music_home_hero_customize_register', 20 );
+
+/**
  * Sanitize checkbox.
  *
  * @param mixed $value Input value.
