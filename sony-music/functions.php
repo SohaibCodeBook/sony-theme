@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SONY_MUSIC_VERSION', '1.0.2' );
+define( 'SONY_MUSIC_VERSION', '1.0.3' );
 define( 'SONY_MUSIC_DIR', get_template_directory() );
 define( 'SONY_MUSIC_URI', get_template_directory_uri() );
 
@@ -24,6 +24,7 @@ function sony_music_asset_version( $relative_path ) {
 
 require_once SONY_MUSIC_DIR . '/inc/customizer.php';
 require_once SONY_MUSIC_DIR . '/inc/home-hero.php';
+require_once SONY_MUSIC_DIR . '/inc/home-releases.php';
 require_once SONY_MUSIC_DIR . '/inc/logo.php';
 require_once SONY_MUSIC_DIR . '/inc/lang-fallback.php';
 require_once SONY_MUSIC_DIR . '/inc/menu-fallback.php';
@@ -74,6 +75,13 @@ function sony_music_enqueue_assets() {
 		sony_music_asset_version( '/assets/css/hero.css' )
 	);
 
+	wp_enqueue_style(
+		'sony-music-releases',
+		SONY_MUSIC_URI . '/assets/css/releases.css',
+		array( 'sony-music-style' ),
+		sony_music_asset_version( '/assets/css/releases.css' )
+	);
+
 	wp_enqueue_script(
 		'sony-music-main',
 		SONY_MUSIC_URI . '/assets/js/main.js',
@@ -88,6 +96,14 @@ function sony_music_enqueue_assets() {
 			SONY_MUSIC_URI . '/assets/js/hero-slider.js',
 			array(),
 			sony_music_asset_version( '/assets/js/hero-slider.js' ),
+			true
+		);
+
+		wp_enqueue_script(
+			'sony-music-releases-slider',
+			SONY_MUSIC_URI . '/assets/js/releases-slider.js',
+			array(),
+			sony_music_asset_version( '/assets/js/releases-slider.js' ),
 			true
 		);
 	}
