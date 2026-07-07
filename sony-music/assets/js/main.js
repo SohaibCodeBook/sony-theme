@@ -219,13 +219,10 @@
 
 			if (current > 200 && current < lastScroll) {
 				headerMain.classList.add('fixed', 'show-down');
-				navToggle.classList.add('fixed', 'show-down');
 			} else {
 				headerMain.classList.remove('show-down');
-				navToggle.classList.remove('show-down');
 				if (current <= 200) {
 					headerMain.classList.remove('fixed');
-					navToggle.classList.remove('fixed');
 				}
 			}
 
