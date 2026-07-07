@@ -1,0 +1,482 @@
+/**
+ * Music Licensing page — matches sonymusic.eu/music-licensing/
+ */
+
+.licensing-container .page-title {
+	color: #e43222;
+	font-size: 38px;
+	line-height: 48px;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+	margin: 0;
+}
+
+.licensing-banner {
+	margin: 0;
+	width: 100vw;
+	max-width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}
+
+.licensing-banner img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.licensing-body {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 15px 70px;
+}
+
+.licensing-spacer--20 {
+	height: 20px;
+}
+
+.licensing-spacer--71 {
+	height: 71px;
+}
+
+.licensing-spacer--78 {
+	height: 78px;
+}
+
+.licensing-spacer--18 {
+	height: 18px;
+}
+
+.licensing-spacer--30 {
+	height: 30px;
+}
+
+.licensing-intro-heading {
+	margin: 0 0 20px;
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 200;
+}
+
+.licensing-intro-list {
+	margin: 0 0 0 1.2em;
+	padding: 0;
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 200;
+	list-style: disc;
+}
+
+.licensing-intro-list li {
+	margin: 0 0 0.35em;
+}
+
+.licensing-intro-list a,
+.licensing-section-intro a,
+.licensing-about__text a,
+.licensing-red,
+.licensing-red strong {
+	color: #e43222;
+}
+
+.licensing-accordion.block-accordion {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.licensing-accordion.accordion-black,
+.licensing-accordion.accordion-black-bg-white-lines {
+	color: #fff;
+	background: #000;
+}
+
+.licensing-accordion .accordion-wrapper {
+	border-top: 2px solid #fff;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section {
+	position: relative;
+	border-bottom: 2px solid #fff;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__title {
+	font-size: 60px;
+	line-height: 65px;
+	padding: 25px 140px 25px 0;
+	cursor: pointer;
+	transition: color 0.25s linear;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__title:hover {
+	color: #e43222;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__content {
+	font-size: 38px;
+	line-height: 48px;
+	padding: 10px 140px 60px 0;
+	display: none;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__content a {
+	color: #e43222;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__content p {
+	margin: 0 0 38px;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__nav {
+	position: absolute;
+	bottom: 50%;
+	right: 30px;
+	transform: translateY(50%);
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	transition: all 0.3s linear;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__nav i {
+	display: inline-block;
+	font-style: normal;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	position: relative;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__nav i::before,
+.licensing-accordion .accordion-wrapper .accordion-section__nav i::after {
+	content: "";
+	width: 2px;
+	height: 40%;
+	background-color: #fff;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-1px) rotate(90deg);
+	transition: background-color 0.25s linear;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__nav i::after {
+	transform: translateX(-1px) rotate(0deg);
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__title:hover .accordion-section__nav i {
+	border-color: #e43222;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section__title:hover .accordion-section__nav i::before,
+.licensing-accordion .accordion-wrapper .accordion-section__title:hover .accordion-section__nav i::after {
+	background-color: #e43222;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav {
+	bottom: 60px;
+}
+
+.licensing-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav i::after {
+	transform: translateX(-1px) rotate(90deg);
+}
+
+.licensing-form-wrap {
+	margin-top: 10px;
+}
+
+.licensing-form__required-note {
+	font-size: 28px;
+	line-height: 36px;
+	margin: 0 0 20px;
+}
+
+.licensing-form__asterisk {
+	color: #e43222;
+}
+
+.licensing-form__fields {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.licensing-form__row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.licensing-form__col {
+	flex: 1 1 100%;
+	min-width: 0;
+}
+
+.licensing-form__col--half {
+	flex: 1 1 calc(50% - 8px);
+}
+
+.licensing-form__heading {
+	font-size: 32px;
+	line-height: 1.3;
+	margin: 20px 0 10px;
+}
+
+.licensing-form__label {
+	display: block;
+	font-size: 28px;
+	line-height: 1.3;
+	margin: 16px 0 8px;
+}
+
+.licensing-form__note {
+	font-size: 24px;
+	line-height: 1.4;
+	margin: 20px 0 0;
+}
+
+.licensing-form input[type="text"],
+.licensing-form input[type="email"],
+.licensing-form input[type="url"],
+.licensing-form input[type="tel"],
+.licensing-form select,
+.licensing-form textarea {
+	width: 100%;
+	box-sizing: border-box;
+	height: 78px;
+	font-size: 32px;
+	line-height: 1.2;
+	border: 1.5px solid #000;
+	border-radius: 38px;
+	background-color: #fff;
+	color: #000;
+	padding: 0 28px;
+	margin: 10px 0;
+	transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.licensing-form textarea {
+	height: auto;
+	min-height: 160px;
+	padding: 25px 28px;
+	resize: vertical;
+}
+
+.licensing-form input::placeholder,
+.licensing-form textarea::placeholder {
+	color: #000;
+	opacity: 1;
+}
+
+.licensing-form input:focus,
+.licensing-form select:focus,
+.licensing-form textarea:focus {
+	border-color: #b28fff;
+	outline: none;
+	color: #b28fff;
+}
+
+.licensing-form input:focus::placeholder,
+.licensing-form textarea:focus::placeholder {
+	color: #b28fff;
+}
+
+.licensing-form select {
+	appearance: none;
+	background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 0.292893C0.683417 -0.097631 1.31658 -0.097631 1.70711 0.292893L5 3.58579L8.29289 0.292893C8.68342 -0.0976311 9.31658 -0.0976311 9.70711 0.292893C10.0976 0.683417 10.0976 1.31658 9.70711 1.70711L5.70711 5.70711C5.31658 6.09763 4.68342 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683418 0.292893 0.292893Z' fill='%23000'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 24px center;
+	padding-right: 56px;
+}
+
+.licensing-form__footer {
+	margin-top: 30px;
+}
+
+.licensing-form__submit {
+	display: inline-block;
+	min-width: 160px;
+	height: 78px;
+	padding: 5px 40px;
+	font-size: 38px;
+	line-height: 1;
+	color: #fff;
+	background: #000;
+	border: 2px solid #fff;
+	border-radius: 27px;
+	cursor: pointer;
+	transition: color 0.25s linear, border-color 0.25s linear;
+}
+
+.licensing-form__submit:hover {
+	color: #e43222;
+	border-color: #e43222;
+}
+
+.licensing-about__title {
+	margin: 0;
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: inherit;
+}
+
+.licensing-about__text {
+	margin: 0 0 38px;
+	font-size: 38px;
+	line-height: 48px;
+}
+
+.licensing-about__image {
+	margin: 0 auto;
+	max-width: 913px;
+	text-align: center;
+}
+
+.licensing-about__image img {
+	display: block;
+	width: 100%;
+	max-width: 913px;
+	height: auto;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 991px) {
+	.licensing-container .page-title {
+		font-size: 32px;
+		line-height: 40px;
+		padding: 30px 0;
+	}
+
+	.licensing-body {
+		padding-bottom: 40px;
+	}
+
+	.licensing-intro-heading,
+	.licensing-intro-list,
+	.licensing-about__text {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section__title {
+		font-size: 38px;
+		line-height: 48px;
+		padding: 20px 90px 20px 0;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section__content {
+		font-size: 28px;
+		line-height: 32px;
+		padding: 0 0 80px;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section__content p {
+		margin-bottom: 28px;
+	}
+
+	.licensing-form input[type="text"],
+	.licensing-form input[type="email"],
+	.licensing-form input[type="url"],
+	.licensing-form input[type="tel"],
+	.licensing-form select,
+	.licensing-form textarea {
+		font-size: 28px;
+		height: 70px;
+	}
+
+	.licensing-form__submit {
+		font-size: 28px;
+		height: 70px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.licensing-container .page-title {
+		font-size: 26px;
+		line-height: 32px;
+		padding: 20px 0;
+	}
+
+	.licensing-intro-heading,
+	.licensing-intro-list,
+	.licensing-about__text {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.licensing-accordion .accordion-wrapper {
+		border-top-width: 1px;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section {
+		border-bottom-width: 1px;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section__title {
+		font-size: 28px;
+		line-height: 36px;
+		padding: 10px 70px 10px 0;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section__content {
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section__content p {
+		margin-bottom: 22px;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section__nav {
+		right: 0;
+		width: 48px;
+		height: 48px;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section__nav i {
+		border-width: 1px;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section__nav i::before,
+	.licensing-accordion .accordion-wrapper .accordion-section__nav i::after {
+		width: 1px;
+	}
+
+	.licensing-accordion .accordion-wrapper .accordion-section.expanded .accordion-section__nav {
+		bottom: 45px;
+	}
+
+	.licensing-form__col--half {
+		flex-basis: 100%;
+	}
+
+	.licensing-form input[type="text"],
+	.licensing-form input[type="email"],
+	.licensing-form input[type="url"],
+	.licensing-form input[type="tel"],
+	.licensing-form select,
+	.licensing-form textarea {
+		font-size: 22px;
+		height: 60px;
+		padding: 0 15px;
+		border-radius: 20px;
+	}
+
+	.licensing-form textarea {
+		padding: 15px;
+	}
+
+	.licensing-form__submit {
+		font-size: 22px;
+		height: 60px;
+	}
+}

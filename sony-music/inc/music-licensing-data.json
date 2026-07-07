@@ -1,0 +1,335 @@
+{
+  "page_title": "Music Licensing",
+  "banner_image": "",
+  "banner_alt": "Music Licensing",
+  "intro_heading": "<strong>You would like…</strong>",
+  "intro_items": [
+    "to license music for <strong>branded content, ads, movies, TV shows</strong> or <strong>video games</strong>? Find all information under “Request music license”.",
+    "to <strong>sample</strong> or <strong>remix</strong> a song? Find all information under “Sampling, Remixes”.",
+    "to <strong>cover a song</strong> or <strong>print lyrics</strong>? Please contact the corresponding <strong><a href=\"https://www.gema.de/portal/app/repertoiresuche/werksuche\">publisher</a></strong>.",
+    "to <strong>license music videos </strong>or <strong>concert clips</strong>? Please contact our <strong><a href=\"mailto:businessdevelopment.gsa@sonymusic.com\">Business Development Team</a></strong>.",
+    "to request an artist for a <strong>brand cooperation</strong> or a <strong>corporate booking event</strong>? Please contact our <strong><a href=\"https://partnerships.sonymusic.de/\">Partnerships team</a></strong>."
+  ],
+  "about_heading": "About us",
+  "about_paragraphs": [
+    "The <strong>Sony Music Licensing Team</strong> licenses music so it can be used in ads, movies, TV shows, apps, video games and branded content. Our goal? Clear all the rights as fast as possible and compensate everyone involved fairly.",
+    "Sony Music owns <strong>rights to millions of songs </strong>from over seventy years of music history – from international stars like Elvis Presley, Janis Joplin, AC/DC, Beyoncé, Adele and Miley Cyrus to national artists like Boney M., Mark Forster, Beatrice Egli, Purple Disco Machine, Kamrad and Nina Chuba. To learn more about our artists, please have a look at our <a href=\"https://www.sonymusic.de/artists/\"><strong class=\"licensing-red\">artist roster</strong></a>."
+  ],
+  "about_image": "",
+  "about_image_alt": "Music Licensing",
+  "guide_image": "",
+  "sections": [
+    {
+      "title": "Request music license",
+      "intro": "<p>You would like to license rights to an <strong>original recording</strong> from the global Sony Music repertoire? Please fill out the form below to request <strong>recording rights</strong>.</p><p>Don’t forget to also request and compensate <strong>publishing rights</strong> (text and composition). Find the corresponding publisher <a href=\"https://www.gema.de/portal/app/repertoiresuche/werksuche\">here</a>.</p><p>Very important note: A request alone is no approval for use from our side.</p>",
+      "form": {
+        "submit_label": "Send",
+        "required_note": true,
+        "fields": [
+          {
+            "type": "name",
+            "first_placeholder": "First name*",
+            "last_placeholder": "Last name*",
+            "required": true
+          },
+          {
+            "type": "email",
+            "placeholder": "Mail address*",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "Position*",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "Company*",
+            "required": true
+          },
+          {
+            "type": "textarea",
+            "placeholder": "Billing address*",
+            "required": true
+          },
+          {
+            "type": "row",
+            "fields": [
+              {
+                "type": "text",
+                "placeholder": "Song*",
+                "required": true
+              },
+              {
+                "type": "text",
+                "placeholder": "Artist*",
+                "required": true
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "placeholder": "Length of use*",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "Project title*",
+            "required": true
+          },
+          {
+            "type": "textarea",
+            "placeholder": "Project description*",
+            "required": true
+          },
+          {
+            "type": "select",
+            "placeholder": "Kind of production*",
+            "options": [
+              "App",
+              "Audio Book",
+              "Branded Content",
+              "Advertisement",
+              "Documentation",
+              "Film",
+              "Non-profit",
+              "Podcast",
+              "Student film",
+              "Trailer",
+              "Series",
+              "Other"
+            ],
+            "required": true
+          },
+          {
+            "type": "heading",
+            "text": "Span of licensing:"
+          },
+          {
+            "type": "row",
+            "fields": [
+              {
+                "type": "text",
+                "placeholder": "Length of use*",
+                "required": true
+              },
+              {
+                "type": "text",
+                "placeholder": "License territory*",
+                "required": true
+              }
+            ]
+          },
+          {
+            "type": "row",
+            "fields": [
+              {
+                "type": "text",
+                "placeholder": "Start of use"
+              },
+              {
+                "type": "text",
+                "placeholder": "End of use"
+              }
+            ]
+          },
+          {
+            "type": "textarea",
+            "placeholder": "Media (for example TV/Online)"
+          },
+          {
+            "type": "text",
+            "placeholder": "Publishing partner (film)"
+          },
+          {
+            "type": "text",
+            "placeholder": "Gross media/production budget"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Licensing guideline",
+      "intro": "<p>You are not sure what you need to take care of when licensing music? We’d like to help you with practical examples and a step-by-step instruction to license and compensate music rights fairly.</p><p class=\"licensing-guide-image-wrap\"><img src=\"__GUIDE_IMAGE__\" alt=\"Music Licensing\" width=\"648\" height=\"216\" loading=\"lazy\" decoding=\"async\"></p><p>Please enter the following information to get access to our Licensing Guide.</p>",
+      "form": {
+        "submit_label": "Send",
+        "required_note": true,
+        "fields": [
+          {
+            "type": "row",
+            "fields": [
+              {
+                "type": "text",
+                "placeholder": "First Name*",
+                "required": true
+              },
+              {
+                "type": "text",
+                "placeholder": "Last Name*",
+                "required": true
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "placeholder": "Position*",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "Company**",
+            "required": true
+          },
+          {
+            "type": "email",
+            "placeholder": "Mail address*",
+            "required": true
+          }
+        ]
+      }
+    },
+    {
+      "title": "Sampling/Remixes",
+      "intro": "<p>You would like to remix or sample a recording of a Sony Music artist?</p><p><strong>If the original recording was published through Sony Music Germany, Austria or Switzerland you can continue below.</strong></p><p>If the recording was published in a foreign country, please contact the <a href=\"https://www.sonymusic.com/contacts/\">corresponding Sony Music team</a>.</p>",
+      "form": {
+        "submit_label": "Send",
+        "required_note": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Was the original recording released by Sony Music Entertainment GSA or is it part of the repertoire of another Sony Music Entertainment company?(Required)",
+            "placeholder": "Please select",
+            "options": [
+              "Germany, Austria or Switzerland",
+              "Other"
+            ],
+            "required": true
+          },
+          {
+            "type": "select",
+            "label": "Are parts of the original recording used?(Required)",
+            "placeholder": "Please select",
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "Full name and address of the licensee(Required)",
+            "required": true
+          },
+          {
+            "type": "email",
+            "placeholder": "Mail address in case of questions(Required)",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "Name of the artist of the original recording(Required)",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "Title of the original recording(Required)",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "In which year was the original recording released?(Required)",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "ISRC of the original recording (https://isrcsearch.ifpi.org/)"
+          },
+          {
+            "type": "text",
+            "placeholder": "Name of the artist of the sample / remix(Required)",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "Desired title of the new recording(Required)",
+            "required": true
+          },
+          {
+            "type": "url",
+            "placeholder": "Link to the demo of the new recording(Required)",
+            "required": true
+          },
+          {
+            "type": "url",
+            "placeholder": "Link to the Artist-Profile Spotify / Amazon / Apple / Deezer(Required)",
+            "required": true
+          },
+          {
+            "type": "url",
+            "placeholder": "Social Media Link Remixer (TikTok / Insta / Facebook / Youtube etc)(Required)",
+            "required": true
+          },
+          {
+            "type": "textarea",
+            "placeholder": "Sample key data (sample length, vocal passage, repetitions, total running time, etc.)(Required)",
+            "required": true
+          },
+          {
+            "type": "select",
+            "label": "Are you already in contact with the publisher(s)?(Required)",
+            "placeholder": "Please select",
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "required": true
+          }
+        ]
+      }
+    },
+    {
+      "title": "Creative music advice",
+      "intro": "<p>You’re working on a film or commercial and are looking for the perfect song? Contact us via <a href=\"mailto:sync.de@sonymusic.com\">sync.de@sonymusic.com</a> with the subject “Briefing”.</p><p>Based on the most recent consumer insights, trends and AI-based music search tools we find the perfect song for your message and viewership.</p><p>Always stay up to date: Our newsletter provides you with the most recent releases and most exciting music licensing tracks on a monthly basis -&gt;</p>",
+      "form": {
+        "submit_label": "Send",
+        "required_note": true,
+        "fields": [
+          {
+            "type": "row",
+            "fields": [
+              {
+                "type": "text",
+                "placeholder": "First name*",
+                "required": true
+              },
+              {
+                "type": "text",
+                "placeholder": "Last name*",
+                "required": true
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "placeholder": "Position*",
+            "required": true
+          },
+          {
+            "type": "text",
+            "placeholder": "Company*",
+            "required": true
+          },
+          {
+            "type": "email",
+            "placeholder": "Mail-address*",
+            "required": true
+          },
+          {
+            "type": "note",
+            "text": "<strong>Please note: Registration for our newsletter alone does not guarantee inclusion in our mailing list. We will check your information as soon as possible.</strong>"
+          }
+        ]
+      }
+    }
+  ]
+}
