@@ -125,6 +125,46 @@ function sony_music_add_menu_item( $menu_id, $title, $url, $parent = 0 ) {
 }
 
 /**
+ * Ensure primary offcanvas menu exists and is assigned.
+ */
+function sony_music_ensure_primary_menu() {
+	if ( wp_installing() ) {
+		return;
+	}
+
+	$locations = get_theme_mod( 'nav_menu_locations', array() );
+	$menu      = wp_get_nav_menu_object( 'Primary Menu' );
+
+	if ( ! $menu ) {
+		$menu_id = wp_create_nav_menu( 'Primary Menu' );
+		if ( is_wp_error( $menu_id ) ) {
+			return;
+		}
+	} else {
+		$menu_id = (int) $menu->term_id;
+	}
+
+	if ( empty( wp_get_nav_menu_items( $menu_id ) ) ) {
+		sony_music_add_menu_item( $menu_id, 'Home', home_url( '/' ) );
+		sony_music_add_menu_item( $menu_id, 'News', home_url( '/news/' ) );
+		sony_music_add_menu_item( $menu_id, 'Artists', home_url( '/artists/' ) );
+
+		$company_id = sony_music_add_menu_item( $menu_id, 'Company', home_url( '/company/' ) );
+		sony_music_add_menu_item( $menu_id, 'About', home_url( '/company/about/' ), $company_id );
+		sony_music_add_menu_item( $menu_id, 'Culture', home_url( '/company/culture/' ), $company_id );
+		sony_music_add_menu_item( $menu_id, 'Music Licensing', home_url( '/music-licensing/' ), $company_id );
+		sony_music_add_menu_item( $menu_id, 'Circle Studios', home_url( '/company/circle-studios/' ), $company_id );
+
+		sony_music_add_menu_item( $menu_id, 'Career', home_url( '/company/career/' ) );
+	}
+
+	if ( empty( $locations['primary'] ) ) {
+		$locations['primary'] = $menu_id;
+		set_theme_mod( 'nav_menu_locations', $locations );
+	}
+}
+
+/**
  * Run one-time setup on theme activation.
  */
 function sony_music_theme_activation() {
@@ -181,5 +221,6 @@ function sony_music_bootstrap_required_pages() {
 	}
 
 	sony_music_ensure_required_pages();
+	sony_music_ensure_primary_menu();
 }
 add_action( 'init', 'sony_music_bootstrap_required_pages', 20 );

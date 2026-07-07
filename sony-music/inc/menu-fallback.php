@@ -13,8 +13,8 @@ defined( 'ABSPATH' ) || exit;
 function sony_music_primary_menu_fallback() {
 	$items = array(
 		array(
-			'label' => 'Home',
-			'url'   => home_url( '/' ),
+			'label'   => 'Home',
+			'url'     => home_url( '/' ),
 			'current' => is_front_page(),
 		),
 		array(
@@ -29,15 +29,32 @@ function sony_music_primary_menu_fallback() {
 			'label'    => 'Company',
 			'url'      => home_url( '/company/' ),
 			'children' => array(
-				array( 'label' => 'About', 'url' => home_url( '/company/about/' ) ),
-				array( 'label' => 'Culture', 'url' => home_url( '/company/culture/' ) ),
-				array( 'label' => 'Music Licensing', 'url' => home_url( '/music-licensing/' ) ),
-				array( 'label' => 'Circle Studios', 'url' => home_url( '/company/circle-studios/' ) ),
+				array(
+					'label'   => 'About',
+					'url'     => home_url( '/company/about/' ),
+					'current' => is_page( 'about' ),
+				),
+				array(
+					'label'   => 'Culture',
+					'url'     => home_url( '/company/culture/' ),
+					'current' => is_page( 'culture' ),
+				),
+				array(
+					'label'   => 'Music Licensing',
+					'url'     => home_url( '/music-licensing/' ),
+					'current' => is_page( 'music-licensing' ),
+				),
+				array(
+					'label'   => 'Circle Studios',
+					'url'     => home_url( '/company/circle-studios/' ),
+					'current' => is_page( 'circle-studios' ),
+				),
 			),
 		),
 		array(
-			'label' => 'Career',
-			'url'   => home_url( '/company/career/' ),
+			'label'   => 'Career',
+			'url'     => home_url( '/company/career/' ),
+			'current' => is_page( 'career' ),
 		),
 	);
 
@@ -108,11 +125,18 @@ function sony_music_render_menu_list( $items, $menu_id, $submenus = true ) {
 		if ( $has_children ) {
 			echo '<ul class="sub-menu">';
 			foreach ( $item['children'] as $child ) {
+				$child_classes = array( 'menu-item' );
+				if ( ! empty( $child['current'] ) ) {
+					$child_classes[] = 'current-menu-item';
+				}
+				printf( '<li class="%s">', esc_attr( implode( ' ', $child_classes ) ) );
 				printf(
-					'<li class="menu-item"><a href="%s">%s</a></li>',
+					'<a href="%s"%s>%s</a>',
 					esc_url( $child['url'] ),
+					! empty( $child['current'] ) ? ' aria-current="page"' : '',
 					esc_html( $child['label'] )
 				);
+				echo '</li>';
 			}
 			echo '</ul>';
 		}
