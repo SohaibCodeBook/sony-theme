@@ -1,28 +1,11 @@
 /**
- * Site footer — matches sonymusic.eu
+ * Site footer — matches sonymusic.eu layout (document flow, not overlapping content).
  */
 
-/* Fallback spacing so content clears the fixed footer before JS runs. */
-#main {
-	margin-bottom: 380px;
-}
-
-@media screen and (max-width: 991px) {
-	#main {
-		margin-bottom: 320px;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	#main {
-		margin-bottom: 300px;
-	}
-}
-
 #footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
+	position: relative;
+	left: auto;
+	bottom: auto;
 	width: 100%;
 	background: #000;
 	color: #fff;
