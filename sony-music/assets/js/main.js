@@ -231,6 +231,30 @@
 	}
 
 	/**
+	 * Footer reveal — keep footer fixed behind main; reserve scroll space equal to footer height.
+	 */
+	function initFooterReveal() {
+		var main = document.getElementById('main');
+		var footer = document.getElementById('footer');
+
+		if (!main || !footer) {
+			return;
+		}
+
+		function updateMargin() {
+			main.style.marginBottom = footer.offsetHeight + 'px';
+		}
+
+		updateMargin();
+		window.addEventListener('resize', updateMargin);
+
+		if (typeof ResizeObserver !== 'undefined') {
+			var observer = new ResizeObserver(updateMargin);
+			observer.observe(footer);
+		}
+	}
+
+	/**
 	 * Footer scroll-to-top buttons.
 	 */
 	function initFooterScrollUp() {
@@ -249,5 +273,6 @@
 	initOffcanvasSubmenus();
 	initNavToggle();
 	initStickyHeader();
+	initFooterReveal();
 	initFooterScrollUp();
 })();

@@ -1,11 +1,11 @@
 /**
- * Site footer — matches sonymusic.eu layout (document flow, not overlapping content).
+ * Site footer — fixed at viewport bottom, revealed as main content scrolls away.
  */
 
 #footer {
-	position: relative;
-	left: auto;
-	bottom: auto;
+	position: fixed;
+	left: 0;
+	bottom: 0;
 	width: 100%;
 	background: #000;
 	color: #fff;
