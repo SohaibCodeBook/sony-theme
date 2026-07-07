@@ -1,0 +1,132 @@
+/**
+ * Circle Studios page — matches sonymusic.eu/company/circle-studios/
+ */
+
+.circle-studios-container .page-title {
+	color: #e43222;
+	font-size: 38px;
+	line-height: 48px;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+	margin: 0;
+}
+
+.circle-studios-content {
+	padding-bottom: 70px;
+}
+
+.circle-studios-inner {
+	max-width: 1130px;
+	margin: 0 auto;
+	padding: 0 15px 70px;
+}
+
+.circle-studios-headline {
+	width: 83.33%;
+	margin: 0;
+	padding: 0;
+	font-size: 60px;
+	line-height: 65px;
+	font-weight: inherit;
+	font-family: inherit;
+}
+
+.circle-studios-body {
+	margin: 0;
+	padding: 50px 0;
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: inherit;
+	font-family: inherit;
+}
+
+.circle-studios-link {
+	margin: 0;
+	font-size: 38px;
+	line-height: 48px;
+}
+
+.circle-studios-link a {
+	color: #e43222;
+	text-decoration: none;
+}
+
+.circle-studios-link a:hover {
+	text-decoration: underline;
+}
+
+.circle-studios-image {
+	margin: 0 auto;
+	max-width: 1024px;
+	text-align: center;
+}
+
+.circle-studios-image img {
+	display: block;
+	width: 100%;
+	max-width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+	.circle-studios-inner {
+		padding: 0 30px 50px;
+	}
+
+	.circle-studios-body {
+		padding: 30px 0;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.circle-studios-container .page-title {
+		font-size: 32px;
+		line-height: 40px;
+		padding: 30px 0;
+	}
+
+	.circle-studios-headline {
+		width: 100%;
+		font-size: 38px;
+		line-height: 48px;
+	}
+
+	.circle-studios-body,
+	.circle-studios-link {
+		font-size: 28px;
+		line-height: 36px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.circle-studios-container .page-title {
+		font-size: 26px;
+		line-height: 32px;
+		padding: 20px 0;
+	}
+
+	.circle-studios-inner {
+		padding: 0 15px 30px;
+	}
+
+	.circle-studios-headline {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.circle-studios-body,
+	.circle-studios-link {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.circle-studios-body {
+		padding: 24px 0;
+	}
+
+	.circle-studios-content {
+		padding-bottom: 40px;
+	}
+}
