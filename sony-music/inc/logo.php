@@ -41,18 +41,22 @@ function sony_music_logo( $class = 'site-logo' ) {
  * Output Sony corporate top bar logo.
  */
 function sony_music_topbar_logo() {
-	$url       = site_data( 'topbar_url' ) ?: 'https://www.sony.com';
-	$logo_img  = site_data( 'topbar_logo' );
+	$url      = site_data( 'topbar_url' ) ?: 'https://www.sony.com';
+	$logo_img = site_data( 'topbar_logo' );
 
 	printf( '<a href="%s" target="_blank" rel="noopener noreferrer">', esc_url( $url ) );
 
 	if ( $logo_img ) {
 		printf(
-			'<img src="%s" alt="SONY" width="auto" height="12" />',
+			'<img class="sony-wordmark" src="%s" alt="SONY" />',
 			esc_url( $logo_img )
 		);
 	} else {
-		echo '<span class="sony-wordmark-text">SONY</span>';
+		$default_logo = SONY_MUSIC_URI . '/assets/images/sony-topbar-logo.svg';
+		printf(
+			'<img class="sony-wordmark" src="%s" alt="SONY" />',
+			esc_url( $default_logo )
+		);
 	}
 
 	echo '</a>';
