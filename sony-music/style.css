@@ -240,7 +240,7 @@ button {
 
 @media screen and (max-width: 767px) {
 	#header-main-wrapper .top-search {
-		margin-right: 70px;
+		margin-right: 12px;
 	}
 }
 
@@ -396,7 +396,7 @@ button {
 @media screen and (max-width: 767px) {
 	#header-main-wrapper .nav-toggle {
 		width: 54px;
-		margin-left: 0;
+		margin-left: -20px;
 	}
 }
 
