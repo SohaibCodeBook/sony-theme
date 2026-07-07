@@ -249,6 +249,7 @@
 
 	/**
 	 * Reserve space so fixed footer does not cover page content.
+	 * Matches sonymusic.eu: $("#main").css("margin-bottom", $("#footer").outerHeight())
 	 */
 	function initFooterSpacing() {
 		var footer = document.getElementById('footer');
@@ -258,12 +259,28 @@
 			return;
 		}
 
+		function getOuterHeight(el) {
+			var style = window.getComputedStyle(el);
+			return el.offsetHeight + parseFloat(style.marginTop || 0) + parseFloat(style.marginBottom || 0);
+		}
+
 		function applySpacing() {
-			main.style.paddingBottom = footer.offsetHeight + 'px';
+			var height = getOuterHeight(footer);
+			if (height > 0) {
+				main.style.marginBottom = height + 'px';
+			}
 		}
 
 		applySpacing();
 		window.addEventListener('resize', applySpacing);
+		window.addEventListener('load', applySpacing);
+
+		// Recalculate after accordion sections expand (contact, faq, etc.).
+		document.addEventListener('click', function (event) {
+			if (event.target.closest('.accordion-section__title')) {
+				window.setTimeout(applySpacing, 520);
+			}
+		});
 	}
 
 	initSearch();
