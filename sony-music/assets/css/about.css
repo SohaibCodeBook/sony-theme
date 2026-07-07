@@ -211,13 +211,6 @@
 	height: 100px;
 }
 
-.about-facade {
-	width: 100vw;
-	max-width: 100vw;
-	margin-left: calc(50% - 50vw);
-	margin-right: calc(50% - 50vw);
-}
-
 @media screen and (max-width: 991px) {
 	.about-container .page-title {
 		font-size: 32px;
