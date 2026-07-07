@@ -49,7 +49,7 @@ $about_image_alt  = isset( $args['about_image_alt'] ) ? $args['about_image_alt']
 
 		<div class="licensing-spacer licensing-spacer--71" aria-hidden="true"></div>
 
-		<div class="block-accordion licensing-accordion accordion-black accordion-black-bg-white-lines">
+		<div class="block-accordion licensing-accordion accordion-black-bg-white-lines">
 			<div class="accordion-wrapper">
 				<?php foreach ( $sections as $section_index => $section ) : ?>
 					<div class="accordion-section">

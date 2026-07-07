@@ -88,19 +88,13 @@
 	margin: 0 auto;
 }
 
-.licensing-accordion.accordion-black,
-.licensing-accordion.accordion-black-bg-white-lines {
-	color: #fff;
-	background: #000;
-}
-
 .licensing-accordion .accordion-wrapper {
-	border-top: 2px solid #fff;
+	border-top: 2px solid #000;
 }
 
 .licensing-accordion .accordion-wrapper .accordion-section {
 	position: relative;
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid #000;
 }
 
 .licensing-accordion .accordion-wrapper .accordion-section__title {
@@ -140,10 +134,10 @@
 	bottom: 50%;
 	right: 30px;
 	transform: translateY(50%);
+	color: inherit;
+	transition: all 0.3s linear;
 	width: 60px;
 	height: 60px;
-	color: #fff;
-	transition: all 0.3s linear;
 }
 
 .licensing-accordion .accordion-wrapper .accordion-section__nav i {
@@ -151,7 +145,7 @@
 	font-style: normal;
 	width: 100%;
 	height: 100%;
-	border: 2px solid #fff;
+	border: 2px solid #000;
 	border-radius: 50%;
 	position: relative;
 }
@@ -161,7 +155,7 @@
 	content: "";
 	width: 2px;
 	height: 40%;
-	background-color: #fff;
+	background-color: #000;
 	position: absolute;
 	top: 30%;
 	left: 50%;
@@ -309,10 +303,10 @@
 	padding: 5px 40px;
 	font-size: 38px;
 	line-height: 1;
-	color: #fff;
-	background: #000;
-	border: 2px solid #fff;
-	border-radius: 27px;
+	color: #000;
+	background: none;
+	border: 2px solid #000;
+	border-radius: 35px;
 	cursor: pointer;
 	transition: color 0.25s linear, border-color 0.25s linear;
 }
