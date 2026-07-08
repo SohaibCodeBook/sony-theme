@@ -172,26 +172,23 @@
 	}
 
 	.section-welcome__gallery {
-		grid-template-columns: 1fr;
-		--welcome-gallery-top-height: clamp(320px, 55vh, 520px);
+		grid-template-columns: repeat(2, 1fr);
 		--welcome-gallery-bottom-height: clamp(220px, 32vh, 340px);
 	}
 
-	.section-welcome__gallery-item:nth-child(-n+3) {
-		height: var(--welcome-gallery-top-height);
-	}
-
+	.section-welcome__gallery-item:nth-child(-n+3),
 	.section-welcome__gallery-item:nth-child(4),
 	.section-welcome__gallery-item--wide,
 	.section-welcome__gallery-item:nth-child(5) {
 		grid-column: auto;
-		height: var(--welcome-gallery-bottom-height);
+		height: auto;
+		aspect-ratio: 1;
 	}
 
-	.section-welcome__gallery-item img {
-		position: static;
-		height: auto;
-		object-fit: contain;
+	.section-welcome__gallery-item:last-child:nth-child(odd) {
+		grid-column: 1 / -1;
+		aspect-ratio: auto;
+		height: var(--welcome-gallery-bottom-height);
 	}
 
 	.block-cta .cta-wrapper {
