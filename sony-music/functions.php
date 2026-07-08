@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SONY_MUSIC_VERSION', '1.6.1' );
+define( 'SONY_MUSIC_VERSION', '1.6.2' );
 define( 'SONY_MUSIC_DIR', get_template_directory() );
 define( 'SONY_MUSIC_URI', get_template_directory_uri() );
 

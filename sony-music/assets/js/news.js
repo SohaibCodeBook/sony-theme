@@ -112,10 +112,10 @@
 
 			setLoading(true);
 
-			window.requestAnimationFrame(function () {
+			window.setTimeout(function () {
 				state.visibleCount += perPage;
 				render();
-			});
+			}, 1000);
 		}
 
 		if (filterToggle && filterCats) {
