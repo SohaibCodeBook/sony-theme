@@ -3,7 +3,7 @@ Theme Name: Sony Music
 Theme URI: https://sonymusic.eu
 Author: Custom
 Description: Sony Music Entertainment Europe clone theme.
-Version: 1.7.3
+Version: 1.7.4
 Requires at least: 6.0
 Tested up to: 6.7
 Requires PHP: 7.4
@@ -22,6 +22,7 @@ Text Domain: sony-music
 	--color-text-muted: #2a2a2a;
 	--color-gray-bg: #f7f7f7;
 	--color-accent: #e43222;
+	--color-search-icon-mobile: #3575b2;
 	--font-light: "SonyMusicSans-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-medium: "SonyMusicSans-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-bold: "SonyMusicSans-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -242,6 +243,16 @@ button {
 @media screen and (max-width: 767px) {
 	#header-main-wrapper .top-search {
 		margin-right: 20px;
+	}
+
+	#header-main-wrapper .top-search button {
+		color: var(--color-search-icon-mobile);
+	}
+
+	#header-main-wrapper .top-search button:hover,
+	#header-main-wrapper .top-search button:focus,
+	#header-main-wrapper .top-search button:focus-visible {
+		color: var(--color-search-icon-mobile);
 	}
 }
 
