@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Archives
+*.zip
+
+# Theme binary images (SVG logos stay tracked)
+sony-music/assets/images/**/*.jpg
+sony-music/assets/images/**/*.jpeg
+sony-music/assets/images/**/*.png
+sony-music/assets/images/**/*.webp
+sony-music/assets/images/**/*.gif

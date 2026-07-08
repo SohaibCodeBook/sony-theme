@@ -1,0 +1,503 @@
+/**
+ * Artists page — matches sonymusic.eu/artists/
+ */
+
+.artists-container .header-section {
+	background: #f7f7f7;
+	padding: 2.5rem 0;
+}
+
+.artists-container .page-title {
+	color: #e43222;
+	font-size: 38px;
+	line-height: 48px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.artists-container .filter-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+	gap: 20px;
+}
+
+.artists-container .filter-section .filter {
+	font-size: 48px;
+	font-family: var(--font-light);
+}
+
+.artists-container .filter-section .filter a {
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+	color: inherit;
+	text-decoration: none;
+}
+
+.artists-container .filter-section .filter a span {
+	padding-right: 15px;
+}
+
+.artists-container .filter-section .filter a i {
+	font-style: normal;
+	width: 40px;
+	height: 40px;
+	border: 2px solid #000;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 38px;
+	font-size: 40px;
+	position: relative;
+	display: inline-block;
+	flex-shrink: 0;
+}
+
+.artists-container .filter-section .filter a i::before,
+.artists-container .filter-section .filter a i::after {
+	position: absolute;
+	content: "";
+	width: 60%;
+	height: 2px;
+	background: #000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.artists-container .filter-section .filter a i::after {
+	transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.artists-container .filter-section .filter a i.filter-opened::after {
+	display: none;
+}
+
+.artists-container .filter-section .filter a:hover i::before,
+.artists-container .filter-section .filter a:hover i::after {
+	background: #e43222;
+	transition: all 0.3s linear;
+}
+
+.artists-container .filter-section .search input[type="search"] {
+	border: none;
+	height: 65px;
+	padding: 0 30px;
+	border-radius: 30px;
+	font-size: 48px;
+	font-family: var(--font-light);
+	width: 100%;
+	max-width: 300px;
+	color: #000;
+	background: #fff;
+	outline: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.artists-container .filter-section .search input[type="search"]::placeholder {
+	color: #000;
+	text-transform: capitalize;
+}
+
+.artists-container .filter-section .search input[type="search"]:focus,
+.artists-container .filter-section .search input[type="search"]:focus-visible {
+	outline: none;
+	box-shadow: none;
+}
+
+.artists-container .filter-categories {
+	display: none;
+	padding-top: 40px;
+}
+
+.artists-container .filter-categories.open {
+	display: block;
+}
+
+.artists-container .filter-categories > a {
+	font-size: 38px;
+	border: 2px solid;
+	padding: 8px 25px;
+	display: inline-block;
+	border-radius: 30px;
+	margin: 0 20px 20px 0;
+	text-transform: capitalize;
+	color: inherit;
+	text-decoration: none;
+	font-family: var(--font-light);
+	line-height: 1.2;
+}
+
+.artists-container .filter-categories > a.active,
+.artists-container .filter-categories > a.show,
+.artists-container .filter-categories > a:hover {
+	border-color: #e43222;
+	color: #e43222;
+}
+
+.artists-container .filter-categories > a .filter-plus {
+	font-size: 28px;
+	margin-left: 8px;
+	line-height: 1;
+}
+
+.artists-container .filter-categories__children {
+	display: none;
+	padding-top: 25px;
+	width: 100%;
+}
+
+.artists-container .filter-categories__children.open {
+	display: block;
+}
+
+.artists-container .filter-categories__children a {
+	font-size: 32px;
+	padding: 8px 20px;
+	display: inline-block;
+	border-radius: 30px;
+	background: #f7f7f7;
+	border: 2px solid #f7f7f7;
+	margin: 0 20px 20px 0;
+	color: inherit;
+	text-decoration: none;
+	font-family: var(--font-light);
+}
+
+.artists-container .filter-categories__children a.active,
+.artists-container .filter-categories__children a:hover {
+	border: 2px solid #e43222;
+	background: none;
+	color: #e43222;
+}
+
+.artists-container .list-section {
+	padding: 60px 0;
+	position: relative;
+}
+
+.artists-container .list-section .item {
+	padding: 0 0 0 100px;
+	position: relative;
+}
+
+.artists-container .list-section .item.is-hidden,
+.artists-container .list-section .item[hidden] {
+	display: none;
+}
+
+.artists-container .list-section .item.grouped {
+	margin-top: 50px;
+}
+
+.artists-container .list-section .item__group {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 48px;
+	background: #fff;
+	text-transform: uppercase;
+	font-family: var(--font-light);
+	z-index: 2;
+	line-height: 1;
+}
+
+.artists-container .list-section .item__group.is-pinned {
+	position: fixed;
+	transform: none;
+}
+
+.artists-container .list-section .item__thumb {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	text-align: center;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.artists-container .list-section .item__thumb img {
+	max-height: 70vh;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	display: inline-block;
+}
+
+.artists-container .list-section .item__title {
+	font-size: 60px;
+	line-height: 65px;
+	mix-blend-mode: difference;
+	position: relative;
+	z-index: 999;
+	font-family: var(--font-light);
+}
+
+.artists-container .list-section .item__title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.artists-container .list-section .item__title i {
+	font-size: 48px;
+	margin-right: 10px;
+	margin-left: 20px;
+	display: none;
+	font-style: normal;
+}
+
+.artists-container .list-section .item__title:hover i,
+.artists-container .list-section .item.active .item__title i {
+	display: inline-block;
+}
+
+.artists-container .list-section .item:hover .item__thumb,
+.artists-container .list-section .item.active .item__thumb {
+	display: block;
+}
+
+.artists-container .list-section .load-next {
+	font-size: 48px;
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+	font-family: var(--font-light);
+}
+
+.artists-container .list-section .load-next__link {
+	display: flex;
+	align-items: center;
+	color: inherit;
+	text-decoration: none;
+}
+
+.artists-container .list-section .load-next__link:hover {
+	color: #e43222;
+}
+
+.artists-container .list-section .load-next__link:hover svg path[stroke] {
+	stroke: #e43222;
+}
+
+.artists-container .list-section .load-next__link:hover svg path[fill] {
+	fill: #e43222;
+}
+
+.artists-container .list-section .load-next svg {
+	margin-right: 30px;
+	flex-shrink: 0;
+	transition: transform 0.4s linear;
+}
+
+.artists-container .list-section .load-next.is-loading svg {
+	animation: artists-load-spin 0.8s linear infinite;
+}
+
+.artists-container .list-section .load-next.is-hidden,
+.artists-container .list-section .load-next[hidden] {
+	display: none;
+}
+
+@keyframes artists-load-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.artists-container .header-section {
+		padding: 30px 0;
+	}
+
+	.artists-container .page-title {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.artists-container .filter-section {
+		padding-top: 30px;
+	}
+
+	.artists-container .filter-section .filter {
+		font-size: 32px;
+	}
+
+	.artists-container .filter-section .filter a i {
+		width: 30px;
+		height: 30px;
+		font-size: 30px;
+		line-height: 28px;
+	}
+
+	.artists-container .filter-section .search input[type="search"] {
+		font-size: 32px;
+		max-width: 200px;
+		height: 45px;
+		padding: 0 20px;
+	}
+
+	.artists-container .filter-categories {
+		padding-top: 30px;
+	}
+
+	.artists-container .filter-categories > a {
+		font-size: 28px;
+		padding: 6px 20px;
+		margin: 0 15px 15px 0;
+	}
+
+	.artists-container .filter-categories > a .filter-plus {
+		font-size: 22px;
+	}
+
+	.artists-container .filter-categories__children {
+		padding-top: 20px;
+	}
+
+	.artists-container .filter-categories__children a {
+		font-size: 24px;
+		padding: 6px 15px;
+		margin: 0 15px 15px 0;
+	}
+
+	.artists-container .list-section .item {
+		padding: 0 0 0 60px;
+	}
+
+	.artists-container .list-section .item.grouped {
+		margin-top: 30px;
+	}
+
+	.artists-container .list-section .item__group {
+		font-size: 36px;
+	}
+
+	.artists-container .list-section .item__title {
+		font-size: 48px;
+		line-height: 54px;
+	}
+
+	.artists-container .list-section .item__title i {
+		font-size: 36px;
+	}
+
+	.artists-container .list-section .load-next {
+		font-size: 38px;
+	}
+
+	.artists-container .list-section .load-next svg {
+		width: 52px;
+		height: 52px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.artists-container .header-section {
+		padding: 20px 0;
+	}
+
+	.artists-container .page-title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+
+	.artists-container .filter-section {
+		padding-top: 20px;
+	}
+
+	.artists-container .filter-section .filter {
+		font-size: 22px;
+	}
+
+	.artists-container .filter-section .filter a:hover {
+		color: #000;
+	}
+
+	.artists-container .filter-section .filter a i {
+		width: 20px;
+		height: 20px;
+		border-width: 1px;
+		font-size: 20px;
+		line-height: 18px;
+	}
+
+	.artists-container .filter-section .filter a i::before,
+	.artists-container .filter-section .filter a i::after {
+		height: 1px;
+	}
+
+	.artists-container .filter-section .search input[type="search"] {
+		font-size: 22px;
+		max-width: 100px;
+		height: 35px;
+		padding: 0 12px;
+	}
+
+	.artists-container .filter-categories {
+		padding-top: 20px;
+	}
+
+	.artists-container .filter-categories > a {
+		font-size: 20px;
+		padding: 4px 16px;
+		margin: 0 10px 10px 0;
+		border-width: 1px;
+	}
+
+	.artists-container .filter-categories > a .filter-plus {
+		font-size: 14px;
+	}
+
+	.artists-container .filter-categories__children {
+		padding-top: 15px;
+	}
+
+	.artists-container .filter-categories__children a {
+		font-size: 16px;
+		padding: 6px 10px;
+		margin: 0 10px 10px 0;
+		border-width: 1px;
+	}
+
+	.artists-container .list-section .item {
+		padding: 0;
+	}
+
+	.artists-container .list-section .item__group {
+		display: none;
+	}
+
+	.artists-container .list-section .item__title {
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	.artists-container .list-section .item__title i {
+		font-size: 28px;
+		margin-left: 0;
+		margin-right: 8px;
+	}
+
+	.artists-container .list-section .load-next {
+		font-size: 28px;
+	}
+
+	.artists-container .list-section .load-next svg {
+		width: 38px;
+		height: 38px;
+		margin-right: 16px;
+	}
+}

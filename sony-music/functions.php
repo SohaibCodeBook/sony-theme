@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SONY_MUSIC_VERSION', '1.6.2' );
+define( 'SONY_MUSIC_VERSION', '1.7.0' );
 define( 'SONY_MUSIC_DIR', get_template_directory() );
 define( 'SONY_MUSIC_URI', get_template_directory_uri() );
 
@@ -35,6 +35,7 @@ require_once SONY_MUSIC_DIR . '/inc/about.php';
 require_once SONY_MUSIC_DIR . '/inc/music-licensing.php';
 require_once SONY_MUSIC_DIR . '/inc/circle-studios.php';
 require_once SONY_MUSIC_DIR . '/inc/news.php';
+require_once SONY_MUSIC_DIR . '/inc/artists.php';
 require_once SONY_MUSIC_DIR . '/inc/logo.php';
 require_once SONY_MUSIC_DIR . '/inc/lang-fallback.php';
 require_once SONY_MUSIC_DIR . '/inc/menu-fallback.php';
@@ -172,6 +173,23 @@ function sony_music_enqueue_assets() {
 			SONY_MUSIC_URI . '/assets/js/news.js',
 			array(),
 			sony_music_asset_version( '/assets/js/news.js' ),
+			true
+		);
+	}
+
+	if ( is_page( 'artists' ) ) {
+		wp_enqueue_style(
+			'sony-music-artists',
+			SONY_MUSIC_URI . '/assets/css/artists.css',
+			array( 'sony-music-style' ),
+			sony_music_asset_version( '/assets/css/artists.css' )
+		);
+
+		wp_enqueue_script(
+			'sony-music-artists',
+			SONY_MUSIC_URI . '/assets/js/artists.js',
+			array(),
+			sony_music_asset_version( '/assets/js/artists.js' ),
 			true
 		);
 	}

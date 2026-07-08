@@ -1,0 +1,2783 @@
+{
+  "page_title": "Artists",
+  "filter_label": "Filter",
+  "search_placeholder": "Search",
+  "load_more_label": "mehr laden",
+  "per_page": 30,
+  "labels": [
+    {
+      "id": "ariola",
+      "label": "Ariola"
+    },
+    {
+      "id": "b1",
+      "label": "b1"
+    },
+    {
+      "id": "catalog",
+      "label": "Catalog"
+    },
+    {
+      "id": "century-media",
+      "label": "Century Media"
+    },
+    {
+      "id": "columbia",
+      "label": "Columbia"
+    },
+    {
+      "id": "epic",
+      "label": "Epic"
+    },
+    {
+      "id": "europa",
+      "label": "EUROPA"
+    },
+    {
+      "id": "four-music",
+      "label": "Four Music"
+    },
+    {
+      "id": "gold-league",
+      "label": "GOLD LEAGUE"
+    },
+    {
+      "id": "hansa-local",
+      "label": "Hansa Local"
+    },
+    {
+      "id": "insideoutmusic",
+      "label": "InsideOutMusic"
+    },
+    {
+      "id": "jive",
+      "label": "Jive"
+    },
+    {
+      "id": "masterworks",
+      "label": "Masterworks"
+    },
+    {
+      "id": "nitron",
+      "label": "NITRON"
+    },
+    {
+      "id": "rca",
+      "label": "RCA"
+    },
+    {
+      "id": "sales",
+      "label": "Sales"
+    },
+    {
+      "id": "sony-classical",
+      "label": "Sony Classical"
+    },
+    {
+      "id": "superball-music",
+      "label": "Superball Music"
+    }
+  ],
+  "artists": [
+    {
+      "letter": "$",
+      "name": "$OHO BANI",
+      "slug": "oho-bani",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdf79e66afcf7415c1cbb3dac"
+    },
+    {
+      "letter": "",
+      "name": "$ONO$ CLIQ",
+      "slug": "ono-cliq",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4615003a228b1e2154d801ea"
+    },
+    {
+      "letter": "2",
+      "name": "21 Savage",
+      "slug": "21-savage",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4f8f76117470957c0e81e5b2"
+    },
+    {
+      "letter": "",
+      "name": "24kGoldn",
+      "slug": "24kgoldn",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1a52daf60d0a426b294f5be5"
+    },
+    {
+      "letter": "",
+      "name": "257ers",
+      "slug": "257ers",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb70f2e4b5ce17aa1a9458d954"
+    },
+    {
+      "letter": "3",
+      "name": "347aidan",
+      "slug": "347aidan",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46fcd3768854ee87e8bb569e"
+    },
+    {
+      "letter": "9",
+      "name": "9zehn99",
+      "slug": "9zehn99",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb33e8f3333f60da6ceea90627"
+    },
+    {
+      "letter": "a",
+      "name": "Aaron Rowe",
+      "slug": "aaron-rowe",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba8ce1ae96cf39854d5898da6"
+    },
+    {
+      "letter": "",
+      "name": "Abor & Tynna",
+      "slug": "abor-tynna",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7525b42a023687841595bbd3"
+    },
+    {
+      "letter": "",
+      "name": "AC/DC",
+      "slug": "ac-dc",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37"
+    },
+    {
+      "letter": "",
+      "name": "Addison Rae",
+      "slug": "addison-rae",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8aaca79d5544dc02bea2b6b2"
+    },
+    {
+      "letter": "",
+      "name": "Adele",
+      "slug": "adele",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb68f6e5892075d7f22615bd17"
+    },
+    {
+      "letter": "",
+      "name": "Adesse",
+      "slug": "adesse",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc591b30d9e53302da596386c"
+    },
+    {
+      "letter": "",
+      "name": "Alex Schulz",
+      "slug": "alex-schulz",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3a8dc32b0548404868d519f6"
+    },
+    {
+      "letter": "",
+      "name": "Alfie Castley",
+      "slug": "alfie-castley",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbd136ae6c6884a7cc69a57e1"
+    },
+    {
+      "letter": "",
+      "name": "Alicia Keys",
+      "slug": "alicia-keys",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4518cf16a45e35fc0cc82862"
+    },
+    {
+      "letter": "",
+      "name": "Alimzo",
+      "slug": "alimzo",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb68afe6dab0c6ff2d98de0bca"
+    },
+    {
+      "letter": "",
+      "name": "Alle Farben",
+      "slug": "alle-farben",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb297c6abecce88499eb3ca1f0"
+    },
+    {
+      "letter": "",
+      "name": "Alok",
+      "slug": "alok",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf7d1bdca65e1cefd4e60c379"
+    },
+    {
+      "letter": "",
+      "name": "Alvaro Soler",
+      "slug": "alvaro-soler",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd994b5fba5c6928eeaa7ca3c"
+    },
+    {
+      "letter": "",
+      "name": "Amélia",
+      "slug": "amelia",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Amo49",
+      "slug": "amo49",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf9b73dbcff9cb010ed7d8c7c"
+    },
+    {
+      "letter": "",
+      "name": "Amy Shark",
+      "slug": "amy-shark",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb507ba9f7721457294af18eeb"
+    },
+    {
+      "letter": "",
+      "name": "Anastasia Kobekina",
+      "slug": "anastasia-kobekina",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "And You Will Know Us By The Trail Of Dead",
+      "slug": "and-you-will-know-us-by-the-trail-of-dead",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7c5febf8798925a1b973a058"
+    },
+    {
+      "letter": "",
+      "name": "André 3000",
+      "slug": "andre-3000",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1984263efe557e8116f0780a"
+    },
+    {
+      "letter": "",
+      "name": "Angèle",
+      "slug": "angele",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb61f84a85b209dfd44b51dd24"
+    },
+    {
+      "letter": "",
+      "name": "Anna Graves",
+      "slug": "anna-graves",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4c2746313fbe4d0da19a00be"
+    },
+    {
+      "letter": "",
+      "name": "Anna Lapwood",
+      "slug": "anna-lapwood",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd6615c6e91ac2203482936dd"
+    },
+    {
+      "letter": "",
+      "name": "AnNa R.",
+      "slug": "anna-r",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb881ca172b06077931cf14d04"
+    },
+    {
+      "letter": "a",
+      "name": "Anneke van Giersbergen",
+      "slug": "anneke-van-giersbergen",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb07dd460d6f662aa3eea93110"
+    },
+    {
+      "letter": "",
+      "name": "Apache 207",
+      "slug": "apache-207",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd8b08d3199d2bd40f909e449"
+    },
+    {
+      "letter": "",
+      "name": "AQUA",
+      "slug": "aqua",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5b6f45a8b422e38f7124ab29"
+    },
+    {
+      "letter": "",
+      "name": "Arcade Fire",
+      "slug": "arcade-fire",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb57c6e5fa2170e9a938f4a880"
+    },
+    {
+      "letter": "",
+      "name": "Arch Enemy",
+      "slug": "arch-enemy",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc6790f344338cb196c00660d"
+    },
+    {
+      "letter": "",
+      "name": "Ardian Bujupi",
+      "slug": "ardian-bujupi",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4d2186e2b655b21f2241c350"
+    },
+    {
+      "letter": "",
+      "name": "Ari Abdul",
+      "slug": "ari-abdul",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7cd193d17b3d7c67b8ddbf1f"
+    },
+    {
+      "letter": "",
+      "name": "AriBeatz",
+      "slug": "aribeatz",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2d5e327341f7593801f2bbe6"
+    },
+    {
+      "letter": "",
+      "name": "ascendant vierge",
+      "slug": "ascendant-vierge",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5ddebeca6ccdaf9d9593ea68"
+    },
+    {
+      "letter": "",
+      "name": "Asphyx",
+      "slug": "asphyx",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1d8c6927c3b00da8b5c82ffe"
+    },
+    {
+      "letter": "",
+      "name": "At The Gates",
+      "slug": "at-the-gates",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe05d57f89f3637d01858832f"
+    },
+    {
+      "letter": "",
+      "name": "ATEEZ",
+      "slug": "ateez",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba157f5d0d147079578719e9d"
+    },
+    {
+      "letter": "",
+      "name": "Audrey Hobert",
+      "slug": "audrey-hobert",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "AVAION",
+      "slug": "avaion",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb562cc577dac9b419dd03c914"
+    },
+    {
+      "letter": "",
+      "name": "AyVe",
+      "slug": "ayve",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb231229d39c81c6faccce0f26"
+    },
+    {
+      "letter": "b",
+      "name": "Baby Keem",
+      "slug": "baby-keem",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe45a6e4cee2ef5f4c0fec713"
+    },
+    {
+      "letter": "",
+      "name": "Backstreet Boys",
+      "slug": "backstreet-boys",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7b3634864a78ab6bd1d77c36"
+    },
+    {
+      "letter": "",
+      "name": "Bakar",
+      "slug": "bakar",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdc4cd9d48938f22e33de239b"
+    },
+    {
+      "letter": "",
+      "name": "Bakermat",
+      "slug": "bakermat",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdc73b337b677f8ccf91b2ae3"
+    },
+    {
+      "letter": "",
+      "name": "Barbra Streisand",
+      "slug": "barbra-streisand",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf78341630056283b6d617753"
+    },
+    {
+      "letter": "",
+      "name": "Basti Stein",
+      "slug": "basti-stein",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb979c4874a0018f98f851cbf0"
+    },
+    {
+      "letter": "",
+      "name": "Beatrice Egli",
+      "slug": "beatrice-egli",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb62e99ba858c3d3b379911e3"
+    },
+    {
+      "letter": "",
+      "name": "Becky G",
+      "slug": "becky-g",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3d24f1805384b8d43c8cae42"
+    },
+    {
+      "letter": "",
+      "name": "BERWYN",
+      "slug": "berwyn",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb82acc7389bff66745ccc7da"
+    },
+    {
+      "letter": "",
+      "name": "Beyoncé",
+      "slug": "beyonce",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7eaa373538359164b843f7c0"
+    },
+    {
+      "letter": "",
+      "name": "BIBIZA",
+      "slug": "bibiza",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3b820e3cceb881555d610d90"
+    },
+    {
+      "letter": "",
+      "name": "BIG TIM",
+      "slug": "big-tim",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb779f80c291c4f4ca9a80619d"
+    },
+    {
+      "letter": "",
+      "name": "Biig Piig",
+      "slug": "biig-piig",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4054b47ac843899a2757221c"
+    },
+    {
+      "letter": "",
+      "name": "BILLA JOE",
+      "slug": "billa-joe",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb51d54592a5c9b2b05d45fcb0"
+    },
+    {
+      "letter": "",
+      "name": "Bilmuri",
+      "slug": "bilmuri",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe5ab051f3f336fca16eaf608"
+    },
+    {
+      "letter": "b",
+      "name": "Black Eyed Peas",
+      "slug": "black-eyed-peas",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb3037310c07b99cbefbd2c6d"
+    },
+    {
+      "letter": "",
+      "name": "Blind Channel",
+      "slug": "blind-channel",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb32d04fcf28135a0ca33bf80a"
+    },
+    {
+      "letter": "",
+      "name": "Blood Incantation",
+      "slug": "blood-incantation",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb39beafeafdc096ec01250662"
+    },
+    {
+      "letter": "",
+      "name": "Blood Orange",
+      "slug": "blood-orange",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb82a833d61eafc09c05c24882"
+    },
+    {
+      "letter": "",
+      "name": "Bob Dylan",
+      "slug": "bob-dylan",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb791742524609864273747ef5"
+    },
+    {
+      "letter": "",
+      "name": "Brad Paisley",
+      "slug": "brad-paisley",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb378509adb9eed426bd853d0f"
+    },
+    {
+      "letter": "",
+      "name": "Bradley Simpson",
+      "slug": "bradley-simpson",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfee83b7d4e95bf85571d355d"
+    },
+    {
+      "letter": "",
+      "name": "Braths",
+      "slug": "braths",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3e5eda52d8e9c145c69ce7eb"
+    },
+    {
+      "letter": "",
+      "name": "BRKN",
+      "slug": "brkn",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9a1a76eb4b8c805e3630a0ef"
+    },
+    {
+      "letter": "",
+      "name": "Bruce Springsteen",
+      "slug": "bruce-springsteen",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb81df2fa2f937029ec986bbb8"
+    },
+    {
+      "letter": "",
+      "name": "Buffalo Traffic Jam",
+      "slug": "buffalo-traffic-jam",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb24ce7b0da6ec113469c9f9b3"
+    },
+    {
+      "letter": "",
+      "name": "BUNT.",
+      "slug": "bunt",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5b7e8e92c0f81880bf93bc6b"
+    },
+    {
+      "letter": "",
+      "name": "Bury Tomorrow",
+      "slug": "bury-tomorrow",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb43a3364c32955912280b55c1"
+    },
+    {
+      "letter": "",
+      "name": "Busta Rhymes",
+      "slug": "busta-rhymes",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7b31aba081ef084510cde4e3"
+    },
+    {
+      "letter": "c",
+      "name": "CALO",
+      "slug": "calo",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb80707854e238463ff447b062"
+    },
+    {
+      "letter": "",
+      "name": "Calvin Harris",
+      "slug": "calvin-harris",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1e4bcd2bef1896648762dd6b"
+    },
+    {
+      "letter": "",
+      "name": "cami",
+      "slug": "cami",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Camille",
+      "slug": "camille",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2e43cfc078c7915fd0ec6f2c"
+    },
+    {
+      "letter": "",
+      "name": "CAPO",
+      "slug": "capo",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb38788f9e0baa8cd8dc33b43d"
+    },
+    {
+      "letter": "",
+      "name": "Caro Fux",
+      "slug": "caro-fux",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb573fc6212019ba822494e0cc"
+    },
+    {
+      "letter": "",
+      "name": "carolesdaughter",
+      "slug": "carolesdaughter",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8e0994c7c03f0d6b2c88e659"
+    },
+    {
+      "letter": "",
+      "name": "Cat Burns",
+      "slug": "cat-burns",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf7ab69e1745bf3495ec13859"
+    },
+    {
+      "letter": "",
+      "name": "CÉLINE",
+      "slug": "celine",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebda088869dd4ee1bd09b1c715"
+    },
+    {
+      "letter": "",
+      "name": "Céline Dion",
+      "slug": "celine-dion",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfe81f2540f9fa7564dd5e05c"
+    },
+    {
+      "letter": "",
+      "name": "Central Cee",
+      "slug": "central-cee",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6ce131983245fc2e6940f6c2"
+    },
+    {
+      "letter": "",
+      "name": "Channel Zero",
+      "slug": "channel-zero",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Ché Salah",
+      "slug": "che-salah",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1806d5a41a2321ae10af0434"
+    },
+    {
+      "letter": "",
+      "name": "chiara",
+      "slug": "chiara",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb63ec70294112aa6db04ccd93"
+    },
+    {
+      "letter": "",
+      "name": "Chlöe",
+      "slug": "chloe",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1bdf4994664f0ab0e6cfd2ba"
+    },
+    {
+      "letter": "",
+      "name": "Chloe Qisha",
+      "slug": "chloe-qisha",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb740b19d69464e1a80cd4dbdb"
+    },
+    {
+      "letter": "c",
+      "name": "Chovo",
+      "slug": "chovo",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebce67d58190667b02429ba445"
+    },
+    {
+      "letter": "",
+      "name": "CHRIS",
+      "slug": "chris",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbe04f03d95210531aa0b062f"
+    },
+    {
+      "letter": "",
+      "name": "Christina Aguilera",
+      "slug": "christina-aguilera",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4a69ef1c3d566709985ce452"
+    },
+    {
+      "letter": "",
+      "name": "Chrystal",
+      "slug": "chrystal",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb528a0be3efe2c20503283f99"
+    },
+    {
+      "letter": "",
+      "name": "Clueso",
+      "slug": "clueso",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb43c159326427aac270adaeb0"
+    },
+    {
+      "letter": "",
+      "name": "colby!",
+      "slug": "colby",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0924c59bf2793d563fbfe70b"
+    },
+    {
+      "letter": "",
+      "name": "coldrain",
+      "slug": "coldrain",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb790734bdee501b47713b4afe"
+    },
+    {
+      "letter": "",
+      "name": "Cordoba78",
+      "slug": "cordoba78",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd6e7925107244ba16d214d7e"
+    },
+    {
+      "letter": "",
+      "name": "Craig David",
+      "slug": "craig-david",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1e08103af765774d5f2daf83"
+    },
+    {
+      "letter": "",
+      "name": "Crazy Music Channel",
+      "slug": "crazy-music-channel",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba339dc6b130090bb3fccf303"
+    },
+    {
+      "letter": "",
+      "name": "Credibil",
+      "slug": "credibil",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfecdcbd5d111e8a7d3db576d"
+    },
+    {
+      "letter": "",
+      "name": "CRO",
+      "slug": "cro",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8431fb1f7c89e2511c2a790e"
+    },
+    {
+      "letter": "d",
+      "name": "Daecolm",
+      "slug": "daecolm",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb663656a6ff13ee44f503467f"
+    },
+    {
+      "letter": "",
+      "name": "Damiano David",
+      "slug": "damiano-david",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5f4739dad0989bd723b29ff5"
+    },
+    {
+      "letter": "",
+      "name": "Dani Lia",
+      "slug": "dani-lia",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9c2ce0d0d728727f34326a8a"
+    },
+    {
+      "letter": "",
+      "name": "Dante YN",
+      "slug": "dante-yn",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb29f99004c07dfcbc55f0b662"
+    },
+    {
+      "letter": "",
+      "name": "Darren Kiely",
+      "slug": "darren-kiely",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfc6328f88c82471854196506"
+    },
+    {
+      "letter": "",
+      "name": "dArtagnan",
+      "slug": "dartagnan",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6dc569d5f616c2ccb08fd6e9"
+    },
+    {
+      "letter": "",
+      "name": "Darwin Miller",
+      "slug": "darwin-miller",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb39f6829c90c661a53efe991c"
+    },
+    {
+      "letter": "",
+      "name": "Dave Gahan & Soulsavers",
+      "slug": "dave-gahan-soulsavers",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Davido",
+      "slug": "davido",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1ae40d4e47750c0ac367f993"
+    },
+    {
+      "letter": "",
+      "name": "DDG",
+      "slug": "ddg",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5d449c11d37985b36cbdd6dd"
+    },
+    {
+      "letter": "",
+      "name": "Declan J Donovan",
+      "slug": "declan-j-donovan",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3e16001375e0acd57f2b8894"
+    },
+    {
+      "letter": "",
+      "name": "Declan McKenna",
+      "slug": "declan-mckenna",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb358e4bc3d74bb8af941aec7a"
+    },
+    {
+      "letter": "",
+      "name": "Deez Nuts",
+      "slug": "deez-nuts",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb81c2f5ff0c8bc9131d538044"
+    },
+    {
+      "letter": "",
+      "name": "Depeche Mode",
+      "slug": "depeche-mode",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebaff13c9484fdad590ccfb73c"
+    },
+    {
+      "letter": "",
+      "name": "Devin Townsend",
+      "slug": "devin-townsend",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbc551b786c75ac585bd6400e"
+    },
+    {
+      "letter": "",
+      "name": "Dhurata Dora",
+      "slug": "dhurata-dora",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1568392149fa8080473278e1"
+    },
+    {
+      "letter": "",
+      "name": "diggidaniel",
+      "slug": "diggidaniel",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebba578cc0f7efa185d81dd32e"
+    },
+    {
+      "letter": "",
+      "name": "Diplo",
+      "slug": "diplo",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdf01727aa674ddefa777797a"
+    },
+    {
+      "letter": "d",
+      "name": "Disarstar",
+      "slug": "disarstar",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6c50e1ae40ca9920f8f1c418"
+    },
+    {
+      "letter": "",
+      "name": "Distant",
+      "slug": "distant",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb48d82faeda8865cdf2bead12"
+    },
+    {
+      "letter": "",
+      "name": "DJ JEEZY",
+      "slug": "dj-jeezy",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebac2a2722ebe416e017b4e269"
+    },
+    {
+      "letter": "",
+      "name": "djcassuk x Mavado",
+      "slug": "djcassuk-x-mavado",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Doja Cat",
+      "slug": "doja-cat",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8a0644455ebfa7d3976f5101"
+    },
+    {
+      "letter": "",
+      "name": "Dom Dolla",
+      "slug": "dom-dolla",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9290e172cbcacc0521b02b11"
+    },
+    {
+      "letter": "",
+      "name": "Dominic Fike",
+      "slug": "dominic-fike",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf2903326ec44d5ecb37dcad9"
+    },
+    {
+      "letter": "",
+      "name": "Dorian",
+      "slug": "dorian",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfb0845d0dc8da23673addb51"
+    },
+    {
+      "letter": "",
+      "name": "Dotan",
+      "slug": "dotan",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebafd478d655c6ec8dc7203cd9"
+    },
+    {
+      "letter": "",
+      "name": "Dove Cameron",
+      "slug": "dove-cameron",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0c5fcd837c1420d97f500ef9"
+    },
+    {
+      "letter": "",
+      "name": "DUBOSS",
+      "slug": "duboss",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb79859c87039436084a29a918"
+    },
+    {
+      "letter": "",
+      "name": "duce",
+      "slug": "duce",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0f51f55d84a259b46a28043b"
+    },
+    {
+      "letter": "",
+      "name": "Durdenhauer",
+      "slug": "durdenhauer",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Dynoro",
+      "slug": "dynoro",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb71c0e657e2c507f83aeb1627"
+    },
+    {
+      "letter": "e",
+      "name": "Eisbrecher",
+      "slug": "eisbrecher",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcd4088b6b7de85a13299c452"
+    },
+    {
+      "letter": "",
+      "name": "Electric Callboy",
+      "slug": "electric-callboy",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb01818649f565b5aa765ba752"
+    },
+    {
+      "letter": "",
+      "name": "ELEHA",
+      "slug": "eleha",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7a9b6019f54b68e642f662d2"
+    },
+    {
+      "letter": "",
+      "name": "ELEXSANDOM",
+      "slug": "elexsandom",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbfec031f8924cecca8a63cfc"
+    },
+    {
+      "letter": "",
+      "name": "Elias",
+      "slug": "elias",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Ella Langley",
+      "slug": "ella-langley",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc4670378a4188c3174ef2ca9"
+    },
+    {
+      "letter": "",
+      "name": "Elle King",
+      "slug": "elle-king",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb98f1e053c254d51c7ebb9831"
+    },
+    {
+      "letter": "",
+      "name": "Emma Steinbakken",
+      "slug": "emma-steinbakken",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe763fea03d7bf5572d96c716"
+    },
+    {
+      "letter": "",
+      "name": "Empyre One x NLCK x Paul Keen",
+      "slug": "empyre-one-x-nlck-x-paul-keen",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Enforced",
+      "slug": "enforced",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3d9de8eaa4335777f5f7b2e8"
+    },
+    {
+      "letter": "",
+      "name": "Enrique Iglesias",
+      "slug": "enrique-iglesias",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4fa1405802a42c665b0f2dd1"
+    },
+    {
+      "letter": "",
+      "name": "Eros Ramazzotti",
+      "slug": "eros-ramazzotti",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb28b456b05c5c79c55087fea5"
+    },
+    {
+      "letter": "",
+      "name": "Esther Abrami",
+      "slug": "esther-abrami",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7cf0fadabfd68bec3c742cf8"
+    },
+    {
+      "letter": "",
+      "name": "Esther Graf",
+      "slug": "esther-graf",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb61835d97e578e25664fdb6e2"
+    },
+    {
+      "letter": "",
+      "name": "Evanescence",
+      "slug": "evanescence",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf42c2c9bead41b262780ea89"
+    },
+    {
+      "letter": "f",
+      "name": "Ferdinand fka Left Boy",
+      "slug": "ferdinand-fka-left-boy",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb38db3658d301acdc6c9aefe7"
+    },
+    {
+      "letter": "f",
+      "name": "Finnel",
+      "slug": "finnel",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9b80337d2075ead2f246cafa"
+    },
+    {
+      "letter": "",
+      "name": "Fiona Apple",
+      "slug": "fiona-apple",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf178cbda9bd9a389581ff021"
+    },
+    {
+      "letter": "",
+      "name": "First Aid Kit",
+      "slug": "first-aid-kit",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0ea606b49bea278def7337e3"
+    },
+    {
+      "letter": "",
+      "name": "Florian Christl",
+      "slug": "florian-christl",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2a0a84501005d6b892801e88"
+    },
+    {
+      "letter": "",
+      "name": "Fousheé",
+      "slug": "foushee",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7696bee0605994f448916795"
+    },
+    {
+      "letter": "",
+      "name": "Freddie Mercury & Queen",
+      "slug": "freddie-mercury-queen",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Future",
+      "slug": "future",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2c472c891062acb4f3068583"
+    },
+    {
+      "letter": "g",
+      "name": "Gaerea",
+      "slug": "gaerea",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9291dd6eb8ea9ebab3363d87"
+    },
+    {
+      "letter": "",
+      "name": "Gallo Nero",
+      "slug": "gallo-nero",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb79ea8ea6d66f46e00780b1c3"
+    },
+    {
+      "letter": "",
+      "name": "Gaullin",
+      "slug": "gaullin",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe30164c590a801de5992e9cb"
+    },
+    {
+      "letter": "",
+      "name": "Gavin James",
+      "slug": "gavin-james",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0ebb51f670e620337afe780e"
+    },
+    {
+      "letter": "",
+      "name": "Geenaro & Ghana Beats",
+      "slug": "geenaro-ghana-beats",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1f53320e8c3b1a08feef58c4"
+    },
+    {
+      "letter": "",
+      "name": "George Ezra",
+      "slug": "george-ezra",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbe936a26ceb9cbbdec7df15b"
+    },
+    {
+      "letter": "",
+      "name": "Gesaffelstein",
+      "slug": "gesaffelstein",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd1b0c16bf77cfe30c09b4951"
+    },
+    {
+      "letter": "",
+      "name": "GHØSTKID",
+      "slug": "ghostkid",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8ea348f37640c1c6535d48ca"
+    },
+    {
+      "letter": "",
+      "name": "Gianna Nannini",
+      "slug": "gianna-nannini",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb42ab4ca4429ee31d67a10221"
+    },
+    {
+      "letter": "",
+      "name": "Gianni Suave",
+      "slug": "gianni-suave",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd221e63ad55c71a9853b949a"
+    },
+    {
+      "letter": "",
+      "name": "girl in red",
+      "slug": "girl-in-red",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1b15c2ad299fdcf864a09742"
+    },
+    {
+      "letter": "",
+      "name": "GIVEON",
+      "slug": "giveon",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe357870455bc56f7ef4147f8"
+    },
+    {
+      "letter": "",
+      "name": "goodlife",
+      "slug": "goodlife",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebaa94a63b11d5390e7761b5fe"
+    },
+    {
+      "letter": "",
+      "name": "Granada",
+      "slug": "granada",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1d26dbb29cd3be827bb71eec"
+    },
+    {
+      "letter": "",
+      "name": "GRETA",
+      "slug": "greta",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9f77a1b37f91bfb7d2ed3a90"
+    },
+    {
+      "letter": "",
+      "name": "Gyakie",
+      "slug": "gyakie",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3b9026ad882bd88e5e7eecbb"
+    },
+    {
+      "letter": "h",
+      "name": "H.E.R.",
+      "slug": "h-e-r",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb417db49cde3ed1c5a65e3514"
+    },
+    {
+      "letter": "",
+      "name": "Haaland936",
+      "slug": "haaland936",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdbf68a72141d9e76b90613ad"
+    },
+    {
+      "letter": "",
+      "name": "Haken",
+      "slug": "haken",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe5065ded5c8fdb1d9659768f"
+    },
+    {
+      "letter": "",
+      "name": "HANABIE.",
+      "slug": "hanabie",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb976b4f88c71c8da2c68e4932"
+    },
+    {
+      "letter": "",
+      "name": "Hans Zimmer",
+      "slug": "hans-zimmer",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb371632043a8c12bb7eeeaf9d"
+    },
+    {
+      "letter": "",
+      "name": "Harrison",
+      "slug": "harrison",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb909e93b3f125838813e828e6"
+    },
+    {
+      "letter": "",
+      "name": "Harry Styles",
+      "slug": "harry-styles",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe309f8c3056a59f20d0968ca"
+    },
+    {
+      "letter": "h",
+      "name": "Hayato Sumino",
+      "slug": "hayato-sumino",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0c6e1b53bd5b5a720816bf27"
+    },
+    {
+      "letter": "",
+      "name": "HE/RO",
+      "slug": "he-ro",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0ec85cd2ea65598dfc31ddc7"
+    },
+    {
+      "letter": "",
+      "name": "Headie One",
+      "slug": "headie-one",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9f5dc9f04106d2668871ce21"
+    },
+    {
+      "letter": "",
+      "name": "Heaven Shall Burn",
+      "slug": "heaven-shall-burn",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb24b3a97c9907e54b66852aeb"
+    },
+    {
+      "letter": "",
+      "name": "Henry Moodie",
+      "slug": "henry-moodie",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebeb112262ba2e60bf90053a02"
+    },
+    {
+      "letter": "",
+      "name": "Heriot",
+      "slug": "heriot",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5aa172e0691ad7a8a7f78c8f"
+    },
+    {
+      "letter": "",
+      "name": "herrH",
+      "slug": "herrh",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0b11f725f7cbb60097440c55"
+    },
+    {
+      "letter": "",
+      "name": "HoodBlaq",
+      "slug": "hoodblaq",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf314405aa7d25f511babe659"
+    },
+    {
+      "letter": "",
+      "name": "Hot Milk",
+      "slug": "hot-milk",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf2eb3412cca69c62be9ffb15"
+    },
+    {
+      "letter": "",
+      "name": "HVME",
+      "slug": "hvme",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfc9a176f6b3ab6dae394bf9c"
+    },
+    {
+      "letter": "i",
+      "name": "Igor Levit",
+      "slug": "igor-levit",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1e1a70d173e6793ff5db3bc2"
+    },
+    {
+      "letter": "",
+      "name": "Ikkimel",
+      "slug": "ikkimel",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7f4edf1190fa514afd800b94"
+    },
+    {
+      "letter": "",
+      "name": "Ilkay Sencan",
+      "slug": "ilkay-sencan",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebec66f165e0cab3fc382b5c78"
+    },
+    {
+      "letter": "",
+      "name": "IND1GO",
+      "slug": "ind1go",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2d5521dbf3056fa3726265a4"
+    },
+    {
+      "letter": "",
+      "name": "Indochine",
+      "slug": "indochine",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcff5d4f21e2a7b1d29ffe77b"
+    },
+    {
+      "letter": "",
+      "name": "Insomnium",
+      "slug": "insomnium",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3c1d18f0fc7bd0b1fa5b607b"
+    },
+    {
+      "letter": "",
+      "name": "Isabel LaRosa",
+      "slug": "isabel-larosa",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb599d3d1bf51e7e91844323d5"
+    },
+    {
+      "letter": "",
+      "name": "Isabel van Gelder",
+      "slug": "isabel-van-gelder",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb39b830ed12cd609767fa91e9"
+    },
+    {
+      "letter": "",
+      "name": "Ivo Martin",
+      "slug": "ivo-martin",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9c0687e52b9c2d3d840cf405"
+    },
+    {
+      "letter": "j",
+      "name": "J Hus",
+      "slug": "j-hus",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5e58d093b8bedfa530c2dd61"
+    },
+    {
+      "letter": "",
+      "name": "Jacob Elias",
+      "slug": "jacob-elias",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebae0a35acbb6fc3bd9c2228d8"
+    },
+    {
+      "letter": "",
+      "name": "Jain",
+      "slug": "jain",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb887264fafa6634019ce9bd11"
+    },
+    {
+      "letter": "",
+      "name": "Jake Bugg",
+      "slug": "jake-bugg",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb820b99abb2afb55ac00a1ecc"
+    },
+    {
+      "letter": "",
+      "name": "Jalil",
+      "slug": "jalil",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1e7f3b9d3b2e30f764d866a6"
+    },
+    {
+      "letter": "",
+      "name": "James Arthur",
+      "slug": "james-arthur",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5a55e66595e80fb12dc5f5fa"
+    },
+    {
+      "letter": "",
+      "name": "Jasper Steverlinck",
+      "slug": "jasper-steverlinck",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc1741504808cc53ec1d6a9e5"
+    },
+    {
+      "letter": "",
+      "name": "Jax Jones",
+      "slug": "jax-jones",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4b758db3a1af0220c5d1563"
+    },
+    {
+      "letter": "",
+      "name": "Jean-Michel Jarre",
+      "slug": "jean-michel-jarre",
+      "image": "https://i.scdn.co/image/dcfb5f6c56b0353bdc972be58cf4d7028ebddb29"
+    },
+    {
+      "letter": "",
+      "name": "JEEZA x DEEN-O",
+      "slug": "jeeza-x-deen-o",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "JENNIE",
+      "slug": "jennie",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba8e3627e392a1d8f539cb575"
+    },
+    {
+      "letter": "j",
+      "name": "Jennifer Lopez",
+      "slug": "jennifer-lopez",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb3b564455dec95d51176e8a1"
+    },
+    {
+      "letter": "",
+      "name": "Jero19",
+      "slug": "jero19",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1147caca50c03e1a8567943b"
+    },
+    {
+      "letter": "",
+      "name": "Jerome",
+      "slug": "jerome",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9df979b90393e72c5e634b60"
+    },
+    {
+      "letter": "",
+      "name": "Jessie Murph",
+      "slug": "jessie-murph",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebabb501717aa1717ea4798061"
+    },
+    {
+      "letter": "",
+      "name": "Jethro Tull",
+      "slug": "jethro-tull",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe1d4d487ce0407b9ecb96743"
+    },
+    {
+      "letter": "",
+      "name": "Johannes Oerding",
+      "slug": "johannes-oerding",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8dedf244f858cfaf41fab38f"
+    },
+    {
+      "letter": "",
+      "name": "Joje",
+      "slug": "joje",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb79c73e206f44bfb7c0e0438f"
+    },
+    {
+      "letter": "",
+      "name": "Jonah Kagen",
+      "slug": "jonah-kagen",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7ca33edd41225f5c41147fdd"
+    },
+    {
+      "letter": "",
+      "name": "JORIS",
+      "slug": "joris",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd9573dd9723cfdce624f48a2"
+    },
+    {
+      "letter": "",
+      "name": "Joy Crookes",
+      "slug": "joy-crookes",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf7ea53cd2207d81a415efe7b"
+    },
+    {
+      "letter": "",
+      "name": "Js.Scotty",
+      "slug": "js-scotty",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbcbcfe0f178e82c5413e33f1"
+    },
+    {
+      "letter": "",
+      "name": "Judas Priest",
+      "slug": "judas-priest",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4b3cfc24737acb15e73e8bd6"
+    },
+    {
+      "letter": "",
+      "name": "Juli",
+      "slug": "juli",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc9209e0be65595c821763066"
+    },
+    {
+      "letter": "",
+      "name": "Julia Meladin",
+      "slug": "julia-meladin",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb937ebf920cf4a2b6bfd375cb"
+    },
+    {
+      "letter": "",
+      "name": "Julian Perretta",
+      "slug": "julian-perretta",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc3bb006b28754fe3bcc0fdbc"
+    },
+    {
+      "letter": "",
+      "name": "Justin Timberlake",
+      "slug": "justin-timberlake",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7a5cfe2597665a3d160e805e"
+    },
+    {
+      "letter": "k",
+      "name": "KAMRAD",
+      "slug": "kamrad",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4d0967049cf20b17a5b21ef1"
+    },
+    {
+      "letter": "",
+      "name": "Kane Brown",
+      "slug": "kane-brown",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb31463eecfb4aa8f92234ea23"
+    },
+    {
+      "letter": "",
+      "name": "Kanonenfieber",
+      "slug": "kanonenfieber",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd068e857fc39fa6009e8f72f"
+    },
+    {
+      "letter": "",
+      "name": "KARA",
+      "slug": "kara",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb05b57a10802bacfdfb26afa0"
+    },
+    {
+      "letter": "",
+      "name": "Karamel19",
+      "slug": "karamel19",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0a2b496cb27002037811495b"
+    },
+    {
+      "letter": "",
+      "name": "Karate Andi",
+      "slug": "karate-andi",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb35cb2c21462a4dc673d5af4c"
+    },
+    {
+      "letter": "",
+      "name": "Kasabian",
+      "slug": "kasabian",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8fafeb8428e1f8873d078d03"
+    },
+    {
+      "letter": "",
+      "name": "Kasi",
+      "slug": "kasi",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfc178587fe494649522f8520"
+    },
+    {
+      "letter": "",
+      "name": "KATI K",
+      "slug": "kati-k",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0ac8d93789e45bd19c65ecce"
+    },
+    {
+      "letter": "",
+      "name": "Kayla Shyx",
+      "slug": "kayla-shyx",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebea9039c4d68295df4c02320e"
+    },
+    {
+      "letter": "",
+      "name": "KC Rebell",
+      "slug": "kc-rebell",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc0535a95273f106c3c04ecf3"
+    },
+    {
+      "letter": "",
+      "name": "Kelvin Jones",
+      "slug": "kelvin-jones",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1d742846aa48c8a595ebad1f"
+    },
+    {
+      "letter": "",
+      "name": "Khatia Buniatishvili",
+      "slug": "khatia-buniatishvili",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf9168310f6640f35be0905d6"
+    },
+    {
+      "letter": "",
+      "name": "Kidda",
+      "slug": "kidda",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc40fddc831c0432bad44ddad"
+    },
+    {
+      "letter": "k",
+      "name": "kiki wera",
+      "slug": "kiki-wera",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb506918703bfad207118684e0"
+    },
+    {
+      "letter": "",
+      "name": "KING LX",
+      "slug": "king-lx",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc5606f747a00cdd4d2688d39"
+    },
+    {
+      "letter": "",
+      "name": "KITSCHKRIEG",
+      "slug": "kitschkrieg",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2cedeafe8b0fdbbb91af57f5"
+    },
+    {
+      "letter": "",
+      "name": "Koe Wetzel",
+      "slug": "koe-wetzel",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8f72b4e3af602d0f98cd3b5d"
+    },
+    {
+      "letter": "",
+      "name": "Kygo",
+      "slug": "kygo",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe5ea1aa1404629c12ad86658"
+    },
+    {
+      "letter": "",
+      "name": "Kylyt",
+      "slug": "kylyt",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbca54894066f977762af7c36"
+    },
+    {
+      "letter": "",
+      "name": "Kynda Gray",
+      "slug": "kynda-gray",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5841762e620943b9235bc633"
+    },
+    {
+      "letter": "l",
+      "name": "Labrinth",
+      "slug": "labrinth",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe06bc05ace04b055edeeff8d"
+    },
+    {
+      "letter": "",
+      "name": "LCD Soundsystem",
+      "slug": "lcd-soundsystem",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6a0838a408f8c9cf82915ac8"
+    },
+    {
+      "letter": "",
+      "name": "leander & ilyproxy",
+      "slug": "leander-ilyproxy",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Lena&Linus",
+      "slug": "lenalinus",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba07c1ad2670f7b76467da41f"
+    },
+    {
+      "letter": "",
+      "name": "Leon Bridges",
+      "slug": "leon-bridges",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd5112a5b16a01e971ebb049c"
+    },
+    {
+      "letter": "",
+      "name": "Leprous",
+      "slug": "leprous",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1b4f5be8bb7577040d9f4f93"
+    },
+    {
+      "letter": "",
+      "name": "LEVKA",
+      "slug": "levka",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8e250f918fc36614af1acecc"
+    },
+    {
+      "letter": "",
+      "name": "Libianca",
+      "slug": "libianca",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb89094b9ebfac2a425c2a810b"
+    },
+    {
+      "letter": "",
+      "name": "Lil Durk",
+      "slug": "lil-durk",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb09791422702c3fa9780468d4"
+    },
+    {
+      "letter": "",
+      "name": "Lil Nas X",
+      "slug": "lil-nas-x",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3758a33e782b46bd7f174e1d"
+    },
+    {
+      "letter": "",
+      "name": "LINA",
+      "slug": "lina",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb00ff5da234c34d16a598c968"
+    },
+    {
+      "letter": "",
+      "name": "Little Mix",
+      "slug": "little-mix",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb08cd53940cbf5813ee5fe565"
+    },
+    {
+      "letter": "",
+      "name": "Lizzy McAlpine",
+      "slug": "lizzy-mcalpine",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb912df0c93a5dc290d3c8816e"
+    },
+    {
+      "letter": "",
+      "name": "London Grammar",
+      "slug": "london-grammar",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb03fca863ba2e1e379ad19998"
+    },
+    {
+      "letter": "",
+      "name": "LORI",
+      "slug": "lori",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb896b40aedd65d47087984171"
+    },
+    {
+      "letter": "",
+      "name": "Lost Frequencies",
+      "slug": "lost-frequencies",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb983c9d4a7428701043498acd"
+    },
+    {
+      "letter": "",
+      "name": "Lost Kings",
+      "slug": "lost-kings",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1a66dd31ddba8483f6f877f3"
+    },
+    {
+      "letter": "",
+      "name": "LOTTE",
+      "slug": "lotte",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2ef13dd7bbff69bb9f111aac"
+    },
+    {
+      "letter": "",
+      "name": "Louis Philippson",
+      "slug": "louis-philippson",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb66d01c163a69301cd9ddf543"
+    },
+    {
+      "letter": "",
+      "name": "Lous and The Yakuza",
+      "slug": "lous-and-the-yakuza",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6016836d45d397f37bc9f234"
+    },
+    {
+      "letter": "",
+      "name": "Love Is Noise",
+      "slug": "love-is-noise",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb50b64fa1f90ca304240275b7"
+    },
+    {
+      "letter": "",
+      "name": "LOWES",
+      "slug": "lowes",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0a915106b10e168cbcbf9ec3"
+    },
+    {
+      "letter": "",
+      "name": "Lucifer",
+      "slug": "lucifer",
+      "image": ""
+    },
+    {
+      "letter": "l",
+      "name": "Lucky Luke",
+      "slug": "lucky-luke",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfd392817994f32724e0c4df1"
+    },
+    {
+      "letter": "",
+      "name": "Lugatti",
+      "slug": "lugatti",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebad60d37e8c5184529d4b664d"
+    },
+    {
+      "letter": "",
+      "name": "Luke Combs",
+      "slug": "luke-combs",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb147f54ed9d9d5f98efdfddd2"
+    },
+    {
+      "letter": "",
+      "name": "Lune",
+      "slug": "lune",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5a5a83b9fd5cf6e5f1ab5237"
+    },
+    {
+      "letter": "m",
+      "name": "Mackenzy Mackay",
+      "slug": "mackenzy-mackay",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb669a030042d7015248b5b9ca"
+    },
+    {
+      "letter": "",
+      "name": "Madison Beer",
+      "slug": "madison-beer",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe49a051508f6c1eeaecff664"
+    },
+    {
+      "letter": "",
+      "name": "MAJAN",
+      "slug": "majan",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb951d68c7d97e09f59af2487a"
+    },
+    {
+      "letter": "",
+      "name": "Malika",
+      "slug": "malika",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb07e8e8a4fb27221da3b3fb8c"
+    },
+    {
+      "letter": "",
+      "name": "Maluma",
+      "slug": "maluma",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1b0d196ca84f4a0d076b4570"
+    },
+    {
+      "letter": "",
+      "name": "Måneskin",
+      "slug": "maneskin",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46d0db8a86fda630ec12401f"
+    },
+    {
+      "letter": "",
+      "name": "Manic Street Preachers",
+      "slug": "manic-street-preachers",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6d99c4a2caedf4e9936f3267"
+    },
+    {
+      "letter": "",
+      "name": "Marduk",
+      "slug": "marduk",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbff3240eed59ef268e7bf45b"
+    },
+    {
+      "letter": "",
+      "name": "Maren Morris",
+      "slug": "maren-morris",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb50d78514ff06d15be59fbbc3"
+    },
+    {
+      "letter": "",
+      "name": "Mari Froes",
+      "slug": "mari-froes",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc6cf1541f92e012f2c26ebad"
+    },
+    {
+      "letter": "",
+      "name": "Maria Mena",
+      "slug": "maria-mena",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9c79c5b8e1ee89f7906f055a"
+    },
+    {
+      "letter": "",
+      "name": "Mariah the Scientist",
+      "slug": "mariah-the-scientist",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e0ad52899974a169ab69c88"
+    },
+    {
+      "letter": "",
+      "name": "Marie Reim",
+      "slug": "marie-reim",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb403694b7639e4a3de74b71ca"
+    },
+    {
+      "letter": "",
+      "name": "Marina Marx",
+      "slug": "marina-marx",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4ee8cc8e65781519671c219e"
+    },
+    {
+      "letter": "",
+      "name": "Mark Forster",
+      "slug": "mark-forster",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb1a35d0275298c6d79467bf8"
+    },
+    {
+      "letter": "",
+      "name": "Mark Ronson",
+      "slug": "mark-ronson",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb105cc9628c315b29d299fbb4"
+    },
+    {
+      "letter": "",
+      "name": "Marnik",
+      "slug": "marnik",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3800ae1bc084cdb9a216cd45"
+    },
+    {
+      "letter": "",
+      "name": "Mathea",
+      "slug": "mathea",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdf568b1c6aba436b5e40adcc"
+    },
+    {
+      "letter": "",
+      "name": "Matt Simons",
+      "slug": "matt-simons",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd31bb63b67283c383fe1d030"
+    },
+    {
+      "letter": "",
+      "name": "Matteo Germeno",
+      "slug": "matteo-germeno",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Matthias Reim",
+      "slug": "matthias-reim",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9c2da19b329f965b52073c13"
+    },
+    {
+      "letter": "",
+      "name": "Mayhem",
+      "slug": "mayhem",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe60e1c595b887e90c6065620"
+    },
+    {
+      "letter": "",
+      "name": "Megan Moroney",
+      "slug": "megan-moroney",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb23435361a7e5cef9e8b73d1e"
+    },
+    {
+      "letter": "",
+      "name": "Meghan Trainor",
+      "slug": "meghan-trainor",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Melissa Naschenweng",
+      "slug": "melissa-naschenweng",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd0601e9e32cabd3ea9b617be"
+    },
+    {
+      "letter": "",
+      "name": "Micah Dailey-White",
+      "slug": "micah-dailey-white",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb422bb36f55f4eeec8fbaa112"
+    },
+    {
+      "letter": "m",
+      "name": "Michael Patrick Kelly",
+      "slug": "michael-patrick-kelly",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb906b595b0d7282b4b47a05a4"
+    },
+    {
+      "letter": "",
+      "name": "Michèl von Wussow",
+      "slug": "michel-von-wussow",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdf699fcb581e6f78a72b66bb"
+    },
+    {
+      "letter": "",
+      "name": "Michelle",
+      "slug": "michelle",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Mieze Katz",
+      "slug": "mieze-katz",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba3f0c3ceea5ce68e6993e979"
+    },
+    {
+      "letter": "",
+      "name": "Mika Noé",
+      "slug": "mika-noe",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba48d716f1f5301704ab7c2ab"
+    },
+    {
+      "letter": "",
+      "name": "Milli",
+      "slug": "milli",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1e446f273f6ed9c44d9829f2"
+    },
+    {
+      "letter": "",
+      "name": "Mimi Webb",
+      "slug": "mimi-webb",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf9ebc4049116c65306ec0449"
+    },
+    {
+      "letter": "",
+      "name": "Miranda Lambert",
+      "slug": "miranda-lambert",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb88989ce8f824f1aa19d059c4"
+    },
+    {
+      "letter": "",
+      "name": "Mishaal",
+      "slug": "mishaal",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe48c5848d0a752b3aac23597"
+    },
+    {
+      "letter": "",
+      "name": "Miss Li",
+      "slug": "miss-li",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb852a078f3f9a7e677759784d"
+    },
+    {
+      "letter": "",
+      "name": "Molly Sandén",
+      "slug": "molly-sanden",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf22eab77d6aa4884f194214f"
+    },
+    {
+      "letter": "",
+      "name": "Monet192",
+      "slug": "monet192",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4320b071711b1e326ee0c3f0"
+    },
+    {
+      "letter": "",
+      "name": "Mosimann",
+      "slug": "mosimann",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Mr. Belt & Wezol",
+      "slug": "mr-belt-wezol",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8419b04162e3cba3098187c5"
+    },
+    {
+      "letter": "",
+      "name": "Myles Smith",
+      "slug": "myles-smith",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf6dd14e3074508978d579a22"
+    },
+    {
+      "letter": "",
+      "name": "MØ",
+      "slug": "mo",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebea088fc970f0b2e7e49422c0"
+    },
+    {
+      "letter": "n",
+      "name": "NALI",
+      "slug": "nali",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb99e02795911858d07ea1a2c0"
+    },
+    {
+      "letter": "",
+      "name": "Namika",
+      "slug": "namika",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc7d270ab14340a10ab8fd4cc"
+    },
+    {
+      "letter": "",
+      "name": "Napalm Death",
+      "slug": "napalm-death",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb96715609a206e464a5a2e6a7"
+    },
+    {
+      "letter": "",
+      "name": "Nea",
+      "slug": "nea",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Nectar Woode",
+      "slug": "nectar-woode",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Neonlicht",
+      "slug": "neonlicht",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc9e89c7194e4ca42b3a5f312"
+    },
+    {
+      "letter": "",
+      "name": "Nicky Jam",
+      "slug": "nicky-jam",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbd100957e0ad955032de12c8"
+    },
+    {
+      "letter": "",
+      "name": "Nicolas Binder",
+      "slug": "nicolas-binder",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb925770bc613283810c19b180"
+    },
+    {
+      "letter": "",
+      "name": "NILOO",
+      "slug": "niloo",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb34c7e3b291df5550406d62f"
+    },
+    {
+      "letter": "",
+      "name": "Nina Chuba",
+      "slug": "nina-chuba",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0a3c84e95542a58fd61ab47c"
+    },
+    {
+      "letter": "",
+      "name": "Nino de Angelo",
+      "slug": "nino-de-angelo",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb24de248312968be2ee11082b"
+    },
+    {
+      "letter": "",
+      "name": "Nizi19",
+      "slug": "nizi19",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb04bafc8fb54de3971ec4f358"
+    },
+    {
+      "letter": "",
+      "name": "Noemi Amalia",
+      "slug": "noemi-amalia",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfeaa040df1f81c5fc5a637d9"
+    },
+    {
+      "letter": "o",
+      "name": "Old Dominion",
+      "slug": "old-dominion",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcf94739cd8366fe8b8db4ebe"
+    },
+    {
+      "letter": "o",
+      "name": "Olive Hatake",
+      "slug": "olive-hatake",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb235dd504af96e6fb8724cf3c"
+    },
+    {
+      "letter": "",
+      "name": "Omar101",
+      "slug": "omar101",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb23f5ad306fdfe2299cd4ad3e"
+    },
+    {
+      "letter": "",
+      "name": "Omnium Gatherum",
+      "slug": "omnium-gatherum",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb04391d1f85dbbcbf788cfb61"
+    },
+    {
+      "letter": "",
+      "name": "Orbit Culture",
+      "slug": "orbit-culture",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebff61b86e734b5bdbd2d8eb25"
+    },
+    {
+      "letter": "",
+      "name": "Oscar And The Wolf",
+      "slug": "oscar-and-the-wolf",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb431358d6a7955c7a99d9c884"
+    },
+    {
+      "letter": "",
+      "name": "Outliers",
+      "slug": "outliers",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb44b5450307305c85fde9fd51"
+    },
+    {
+      "letter": "p",
+      "name": "P!NK",
+      "slug": "pnk",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7bbad89a61061304ec842588"
+    },
+    {
+      "letter": "",
+      "name": "PA69",
+      "slug": "pa69",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Pain Of Salvation",
+      "slug": "pain-of-salvation",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd8e598e21b6b59135379da31"
+    },
+    {
+      "letter": "",
+      "name": "PARTYNEXTDOOR",
+      "slug": "partynextdoor",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb957320981e31e862bc2fb844"
+    },
+    {
+      "letter": "",
+      "name": "Pater Alexander",
+      "slug": "pater-alexander",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Patti Smith",
+      "slug": "patti-smith",
+      "image": "https://i.scdn.co/image/44012cfc4fedcbe92ac5e14178061fd3a872417f"
+    },
+    {
+      "letter": "",
+      "name": "Paul Kalkbrenner",
+      "slug": "paul-kalkbrenner",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb72a52d500aa9e245f9ee6a1"
+    },
+    {
+      "letter": "",
+      "name": "Paula Hartmann",
+      "slug": "paula-hartmann",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6db6bdfd82c3394a6af3399e"
+    },
+    {
+      "letter": "",
+      "name": "PaulWetz",
+      "slug": "paulwetz",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0db59a49603e645cb9879968"
+    },
+    {
+      "letter": "",
+      "name": "Peder Elias",
+      "slug": "peder-elias",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5610836f80768e6a8d61aa65"
+    },
+    {
+      "letter": "",
+      "name": "PEDRO SAMPAIO",
+      "slug": "pedro-sampaio",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3dd0a55ca117602bec62cc64"
+    },
+    {
+      "letter": "",
+      "name": "Perrie",
+      "slug": "perrie",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8f3c5a9ea4eda02b1c05669d"
+    },
+    {
+      "letter": "",
+      "name": "Peter Maffay",
+      "slug": "peter-maffay",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb54ad87374c122a92a1334995"
+    },
+    {
+      "letter": "",
+      "name": "Pharrell Williams",
+      "slug": "pharrell-williams",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf0789cd783c20985ec3deb4e"
+    },
+    {
+      "letter": "",
+      "name": "Pia-Sophie",
+      "slug": "pia-sophie",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2315a4115d40c13bde05fa9a"
+    },
+    {
+      "letter": "",
+      "name": "Picture This",
+      "slug": "picture-this",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba2c84f167684fb233a08e69a"
+    },
+    {
+      "letter": "",
+      "name": "Pietro Basile",
+      "slug": "pietro-basile",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7bcf3054415d7d543e41988a"
+    },
+    {
+      "letter": "",
+      "name": "Polo G",
+      "slug": "polo-g",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbedf3bdf589da06d1567196c"
+    },
+    {
+      "letter": "",
+      "name": "Porcupine Tree",
+      "slug": "porcupine-tree",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc4f72407be5d96db73982400"
+    },
+    {
+      "letter": "",
+      "name": "Purple Disco Machine",
+      "slug": "purple-disco-machine",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbd1cb147996bda17ecc97dd7"
+    },
+    {
+      "letter": "q",
+      "name": "Queensrÿche",
+      "slug": "queensryche",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6cdde60b6c8838aeb82dfb41"
+    },
+    {
+      "letter": "r",
+      "name": "Rachel Portman",
+      "slug": "rachel-portman",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebecdcf117a93f2cab88a9faf8"
+    },
+    {
+      "letter": "",
+      "name": "Raphaela Gromes",
+      "slug": "raphaela-gromes",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba620dfb0d963a1b1bedf2959"
+    },
+    {
+      "letter": "",
+      "name": "Ray Dalton",
+      "slug": "ray-dalton",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd60dce1f65afd02e107b778f"
+    },
+    {
+      "letter": "r",
+      "name": "Ray LaMontagne",
+      "slug": "ray-lamontagne",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb44ede429cd4a7a2bda7e6156"
+    },
+    {
+      "letter": "",
+      "name": "reezy",
+      "slug": "reezy",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbcd5c0ba5c153e1a4e8b0b2a"
+    },
+    {
+      "letter": "",
+      "name": "Regard",
+      "slug": "regard",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3a40d117d52a9fe3aacf304f"
+    },
+    {
+      "letter": "",
+      "name": "Revelle",
+      "slug": "revelle",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe54ed611bc321687b8450351"
+    },
+    {
+      "letter": "",
+      "name": "Rhodes",
+      "slug": "rhodes",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Ricky Martin",
+      "slug": "ricky-martin",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1c0f358293ec7b223fd91fca"
+    },
+    {
+      "letter": "",
+      "name": "RIN",
+      "slug": "rin",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7d7ea33722d068e827b311ad"
+    },
+    {
+      "letter": "",
+      "name": "Riverside",
+      "slug": "riverside",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4095e0f487f93541ab8ab7f5"
+    },
+    {
+      "letter": "",
+      "name": "Robbie Williams",
+      "slug": "robbie-williams",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebec4b5ff594ae3d7c5622cf23"
+    },
+    {
+      "letter": "",
+      "name": "Roger Rekless",
+      "slug": "roger-rekless",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba9fa5cf45ba826019c82c8b3"
+    },
+    {
+      "letter": "",
+      "name": "Roland Kaiser",
+      "slug": "roland-kaiser",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb57bf575eb4a71a7c903d2b40"
+    },
+    {
+      "letter": "",
+      "name": "ROSALÍA",
+      "slug": "rosalia",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9354faf80eb87961466edfbf"
+    },
+    {
+      "letter": "",
+      "name": "Rudimental",
+      "slug": "rudimental",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf74070a7e4a3e7743f68b058"
+    },
+    {
+      "letter": "",
+      "name": "Rumelis",
+      "slug": "rumelis",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Runrig",
+      "slug": "runrig",
+      "image": "https://i.scdn.co/image/56a2639c88c57d238e9b345ac36b51e9232c288b"
+    },
+    {
+      "letter": "s",
+      "name": "S1RENA",
+      "slug": "s1rena",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0c783295d6a5842e223c7ed2"
+    },
+    {
+      "letter": "",
+      "name": "SAM",
+      "slug": "sam",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd94dca90abc8473edf2b8ba1"
+    },
+    {
+      "letter": "",
+      "name": "Sam Feldt",
+      "slug": "sam-feldt",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf090afe7b8ea177c248d4f5f"
+    },
+    {
+      "letter": "",
+      "name": "Samurai Pizza Cats",
+      "slug": "samurai-pizza-cats",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc510a9b3fba85a5bedfa98d1"
+    },
+    {
+      "letter": "",
+      "name": "Sandra Hesch",
+      "slug": "sandra-hesch",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb34c0a398c798f1956445263"
+    },
+    {
+      "letter": "",
+      "name": "Sandzo",
+      "slug": "sandzo",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7d38f85b6e110ca1822dc060"
+    },
+    {
+      "letter": "",
+      "name": "Sanie",
+      "slug": "sanie",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba72f250e419ee65f80bb8c4c"
+    },
+    {
+      "letter": "",
+      "name": "Sarah Engels",
+      "slug": "sarah-engels",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe5d37b1cc25536c1dcd3a92d"
+    },
+    {
+      "letter": "",
+      "name": "Sarro",
+      "slug": "sarro",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7da46c4fc01a6161e9429fa7"
+    },
+    {
+      "letter": "",
+      "name": "Sasha Alex Sloan",
+      "slug": "sasha-alex-sloan",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb10b7ef8a43b16465acdc0e1d"
+    },
+    {
+      "letter": "",
+      "name": "schening",
+      "slug": "schening",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0dc32586f8644c266d3f1319"
+    },
+    {
+      "letter": "",
+      "name": "Schiller",
+      "slug": "schiller",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf420eb9d0e75139d7db0e0c9"
+    },
+    {
+      "letter": "",
+      "name": "Schmyt",
+      "slug": "schmyt",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe844d2f0d3cfc501e50fbc24"
+    },
+    {
+      "letter": "",
+      "name": "Scorpion Gang",
+      "slug": "scorpion-gang",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb890b9401b68c3b28c5a4bc8b"
+    },
+    {
+      "letter": "",
+      "name": "Semino Rossi",
+      "slug": "semino-rossi",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4cc444c743dd4ed4272b518c"
+    },
+    {
+      "letter": "s",
+      "name": "Shakira",
+      "slug": "shakira",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb17f15f351cba70561ad8bcac"
+    },
+    {
+      "letter": "",
+      "name": "Sharaktah",
+      "slug": "sharaktah",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb98d330e099971694b3644f3c"
+    },
+    {
+      "letter": "",
+      "name": "Sick Of It All",
+      "slug": "sick-of-it-all",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb97c50f5ca9a96cade0f74957"
+    },
+    {
+      "letter": "",
+      "name": "Sigala",
+      "slug": "sigala",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2287136f17708c9d01fa538c"
+    },
+    {
+      "letter": "",
+      "name": "Silva Bumpa",
+      "slug": "silva-bumpa",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd52a564d068eb5b06ad3bd25"
+    },
+    {
+      "letter": "",
+      "name": "Simon Ochmann",
+      "slug": "simon-ochmann",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0ad10e665bf2b5f6eb25512e"
+    },
+    {
+      "letter": "",
+      "name": "Skepta",
+      "slug": "skepta",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb247e3bd61bd004869b5bffc3"
+    },
+    {
+      "letter": "",
+      "name": "Slayyyter",
+      "slug": "slayyyter",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebebca70933965db1daad76725"
+    },
+    {
+      "letter": "",
+      "name": "Sleep Token",
+      "slug": "sleep-token",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd00c2ff422829437e6b5f1e0"
+    },
+    {
+      "letter": "",
+      "name": "SLICK KILLA",
+      "slug": "slick-killa",
+      "image": "https://i.scdn.co/image/ab67616d0000b27305b54b112def96fdf2660149"
+    },
+    {
+      "letter": "",
+      "name": "Solange",
+      "slug": "solange",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb631cf0aa859e5a20e836f14f"
+    },
+    {
+      "letter": "",
+      "name": "Sons Of Apollo",
+      "slug": "sons-of-apollo",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8a643fb14f1dc3310e0e468b"
+    },
+    {
+      "letter": "",
+      "name": "Sosa La M",
+      "slug": "sosa-la-m",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb54d3e0a936912a2aaf6326a6"
+    },
+    {
+      "letter": "",
+      "name": "Sotiria",
+      "slug": "sotiria",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb923f4890d0a6990c137240d1"
+    },
+    {
+      "letter": "",
+      "name": "southstar",
+      "slug": "southstar",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcee98104fcc0939701fd6280"
+    },
+    {
+      "letter": "",
+      "name": "Steffy Metal",
+      "slug": "steffy-metal",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1d925b3f9612f10caf8e8201"
+    },
+    {
+      "letter": "",
+      "name": "Steve Lacy",
+      "slug": "steve-lacy",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7e3150cffbfda40c6eaf28dd"
+    },
+    {
+      "letter": "",
+      "name": "Suena",
+      "slug": "suena",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb49730e7ad9b64008a257d18f"
+    },
+    {
+      "letter": "",
+      "name": "Suicide Silence",
+      "slug": "suicide-silence",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3d199e5cdd7d8e1f57c99a74"
+    },
+    {
+      "letter": "",
+      "name": "Sukh Cess",
+      "slug": "sukh-cess",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9b84dcc6f831b926ff451436"
+    },
+    {
+      "letter": "",
+      "name": "Symba",
+      "slug": "symba",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe4b0381a45e5492706c6d891"
+    },
+    {
+      "letter": "",
+      "name": "SZA",
+      "slug": "sza",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf"
+    },
+    {
+      "letter": "t",
+      "name": "Tame Impala",
+      "slug": "tame-impala",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601"
+    },
+    {
+      "letter": "",
+      "name": "Tate McRae",
+      "slug": "tate-mcrae",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbed8016bd64422793ff3bc75"
+    },
+    {
+      "letter": "",
+      "name": "teamwork.",
+      "slug": "teamwork",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9f8968bb59dd7dc7bcfc0b74"
+    },
+    {
+      "letter": "",
+      "name": "Teodor Currentzis",
+      "slug": "teodor-currentzis",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6b98d25cfefcc21d9abd2677"
+    },
+    {
+      "letter": "",
+      "name": "The Bausa",
+      "slug": "bausa",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb5648c495001f722ed4a1000"
+    },
+    {
+      "letter": "",
+      "name": "The Butcher Sisters",
+      "slug": "the-butcher-sisters",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "The Chainsmokers",
+      "slug": "the-chainsmokers",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4567279fac84a0375c3d819b"
+    },
+    {
+      "letter": "",
+      "name": "The Cratez",
+      "slug": "the-cratez",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2fa81da9826881fcfc948746"
+    },
+    {
+      "letter": "t",
+      "name": "The Flower Kings",
+      "slug": "the-flower-kings",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfbfe821573e3e8149c972b50"
+    },
+    {
+      "letter": "",
+      "name": "The Kid LAROI",
+      "slug": "the-kid-laroi",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8ae6a1046094624d95b115cb"
+    },
+    {
+      "letter": "",
+      "name": "The Strokes",
+      "slug": "the-strokes",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc3b137793230f4043feb0089"
+    },
+    {
+      "letter": "",
+      "name": "Thomas Day",
+      "slug": "thomas-day",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0e2b06cb859ec95a09cfb15e"
+    },
+    {
+      "letter": "",
+      "name": "Thomas Raggi",
+      "slug": "thomas-raggi",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb543da2a2f99b99ff9832a71c"
+    },
+    {
+      "letter": "",
+      "name": "Three Days Grace",
+      "slug": "three-days-grace",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2e619cf7c1577485d14c2043"
+    },
+    {
+      "letter": "",
+      "name": "Tim Bendzko",
+      "slug": "tim-bendzko",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb69daa8f9004052585f5b6fd7"
+    },
+    {
+      "letter": "",
+      "name": "Timmy Trumpet feat. loafers & The High",
+      "slug": "timmy-trumpet-feat-loafers-the-high",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "TJARK",
+      "slug": "tjark",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb10688f16a33d0f248b173e1c"
+    },
+    {
+      "letter": "",
+      "name": "TKKG",
+      "slug": "tkkg",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1e8366050ddb70f1267cde51"
+    },
+    {
+      "letter": "",
+      "name": "Tom Walker",
+      "slug": "tom-walker",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc2384c86f647f1d9ae9fb3ed"
+    },
+    {
+      "letter": "",
+      "name": "Tommy Cash",
+      "slug": "tommy-cash",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Tony Igy",
+      "slug": "tony-igy",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8d001165b5cbee4a7be1e70c"
+    },
+    {
+      "letter": "",
+      "name": "Transatlantic",
+      "slug": "transatlantic",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb24b13820b66eee8a5b6820fe"
+    },
+    {
+      "letter": "",
+      "name": "Travis Scott",
+      "slug": "travis-scott",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71"
+    },
+    {
+      "letter": "",
+      "name": "TRIM",
+      "slug": "trim",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb27ec5cf3101f272126f3acaf"
+    },
+    {
+      "letter": "",
+      "name": "Tyla",
+      "slug": "tyla",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb69719e4164b893213a525d25"
+    },
+    {
+      "letter": "",
+      "name": "Tyler Shaw",
+      "slug": "tyler-shaw",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb33ae74b65abad4a080515b46"
+    },
+    {
+      "letter": "",
+      "name": "Tyler, The Creator",
+      "slug": "tyler-the-creator",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdf2728294ff77dd11eeb18fb"
+    },
+    {
+      "letter": "u",
+      "name": "Udo Jürgens",
+      "slug": "udo-jurgens",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcacd24fb51a8085a99f6f503"
+    },
+    {
+      "letter": "",
+      "name": "Unanimated",
+      "slug": "unanimated",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd557d7759ac1bb053670e97e"
+    },
+    {
+      "letter": "",
+      "name": "Unda",
+      "slug": "unda",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6c8c2711e1b127342bbd5714"
+    },
+    {
+      "letter": "v",
+      "name": "venbee",
+      "slug": "venbee",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb315dd57865feeeaa22cd0469"
+    },
+    {
+      "letter": "",
+      "name": "verifiziert",
+      "slug": "verifiziert",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf898fb8510da1c57bc2f2baf"
+    },
+    {
+      "letter": "",
+      "name": "Versengold",
+      "slug": "versengold",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebea0b541a55997eca62663592"
+    },
+    {
+      "letter": "",
+      "name": "Victoria De Angelis",
+      "slug": "victoria-de-angelis",
+      "image": ""
+    },
+    {
+      "letter": "",
+      "name": "Vildhjarta",
+      "slug": "vildhjarta",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbd8118f64e1fde9116333404"
+    },
+    {
+      "letter": "",
+      "name": "VINAI",
+      "slug": "vinai",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb45febdf735530369e5e753ec"
+    },
+    {
+      "letter": "",
+      "name": "Von Wegen Lisbeth",
+      "slug": "von-wegen-lisbeth",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebaea9a7a416ebc60f5205f407"
+    },
+    {
+      "letter": "w",
+      "name": "Wa22ermann",
+      "slug": "wa22ermann",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb80d42ca484cd8f705ca624c1"
+    }
+  ]
+}
