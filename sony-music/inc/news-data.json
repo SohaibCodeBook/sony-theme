@@ -1,0 +1,281 @@
+{
+  "page_title": "News",
+  "filter_label": "Filter",
+  "search_placeholder": "Search",
+  "load_more_label": "mehr laden",
+  "per_page": 12,
+  "categories": [
+    {
+      "id": "artist",
+      "label": "Artist",
+      "has_children": false
+    },
+    {
+      "id": "charts",
+      "label": "Charts",
+      "has_children": false
+    },
+    {
+      "id": "company",
+      "label": "Company",
+      "has_children": false
+    },
+    {
+      "id": "label",
+      "label": "Label",
+      "has_children": true,
+      "children": [
+        {
+          "id": "ariola",
+          "label": "Ariola"
+        },
+        {
+          "id": "b1-recordings",
+          "label": "B1 Recordings"
+        },
+        {
+          "id": "columbia-records",
+          "label": "Columbia Records"
+        },
+        {
+          "id": "epic",
+          "label": "Epic"
+        },
+        {
+          "id": "europa",
+          "label": "Europa"
+        },
+        {
+          "id": "four-music",
+          "label": "Four Music"
+        },
+        {
+          "id": "gold-league",
+          "label": "Gold League"
+        },
+        {
+          "id": "jive-germany",
+          "label": "Jive Germany"
+        },
+        {
+          "id": "rca-deutschland",
+          "label": "RCA Deutschland"
+        },
+        {
+          "id": "sony-classical-jazz",
+          "label": "Sony Classical & Jazz"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "has_children": false
+    },
+    {
+      "id": "year",
+      "label": "Year",
+      "has_children": true,
+      "children": [
+        {
+          "id": "2026",
+          "label": "2026"
+        },
+        {
+          "id": "2025",
+          "label": "2025"
+        },
+        {
+          "id": "2024",
+          "label": "2024"
+        },
+        {
+          "id": "2023",
+          "label": "2023"
+        },
+        {
+          "id": "2022",
+          "label": "2022"
+        },
+        {
+          "id": "2021",
+          "label": "2021"
+        },
+        {
+          "id": "2020",
+          "label": "2020"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "slug": "sony-music-celebrates-artists-at-summer-sounds-in-berlin",
+      "title": "Sony Music celebrates Artists at “Summer Sounds” in Berlin",
+      "category": "Company",
+      "year": "2026",
+      "image": "assets/images/news/01.jpg"
+    },
+    {
+      "slug": "sony-music-and-the-female-producer-collective-host-songwriting-camp-at-circle-studios-berlin",
+      "title": "Sony Music and the Female* Producer Collective host songwriting camp at Circle Studios Berlin",
+      "category": "Company",
+      "year": "2026",
+      "image": "assets/images/news/02.png"
+    },
+    {
+      "slug": "sony-music-brings-together-community-and-pop-culture-at-rosalias-berlin-concert",
+      "title": "Sony Music brings together community and pop culture at ROSALÍA’s Berlin concert",
+      "category": "Other",
+      "year": "2026",
+      "image": "assets/images/news/03.jpg"
+    },
+    {
+      "slug": "sony-music-entertainment-and-two-sides-expand-their-partnership-at-group-level",
+      "title": "Sony Music Entertainment and Two Sides expand their partnership at group level",
+      "category": "Other",
+      "year": "2026",
+      "image": "assets/images/news/04.png"
+    },
+    {
+      "slug": "sony-music-hosted-female-producer-prize-writing-camp-and-industry-brunch-in-berlin",
+      "title": "Sony Music Hosted Female* Producer Prize Writing Camp and Industry Brunch in Berlin",
+      "category": "Label",
+      "year": "2026",
+      "image": "assets/images/news/05.png"
+    },
+    {
+      "slug": "sony-music-gsa-and-black-future-week-host-special-black-history-month-event-in-berlin",
+      "title": "Sony Music GSA and Black Future Week Host Special Black History Month Event in Berlin",
+      "category": "Other",
+      "year": "2026",
+      "image": "assets/images/news/06.jpg"
+    },
+    {
+      "slug": "judas-priest-presents-the-documentary-the-ballad-of-judas-priest",
+      "title": "Judas Priest presents the documentary “The Ballad of Judas Priest”",
+      "category": "Company",
+      "year": "2026",
+      "image": "assets/images/news/07.png"
+    },
+    {
+      "slug": "avaion-presents-audiovisual-album-experience-in-berlin",
+      "title": "AVAION presents audiovisual album experience in Berlin",
+      "category": "Artist",
+      "year": "2026",
+      "image": "assets/images/news/08.jpg"
+    },
+    {
+      "slug": "sony-music-and-female-producer-collective-hosted-third-songwriting-camp-at-circle-studios-berlin",
+      "title": "Sony Music and Female* Producer Collective hosted third songwriting camp at CIRCLE STUDIOS Berlin",
+      "category": "Company",
+      "year": "2025",
+      "image": "assets/images/news/09.png"
+    },
+    {
+      "slug": "sony-music-germany-and-music-women-germany-announce-the-winners-of-the-female-producer-prize-2025",
+      "title": "Sony Music Germany and Music Women* Germany announce the winners of the Female* Producer Prize 2025",
+      "category": "Company",
+      "year": "2025",
+      "image": "assets/images/news/10.jpg"
+    },
+    {
+      "slug": "german-artist-nina-chuba-launches-her-own-fortnite-island",
+      "title": "German Artist Nina Chuba Launches Her Own Fortnite Island",
+      "category": "Artist",
+      "year": "2025",
+      "image": "assets/images/news/11.png"
+    },
+    {
+      "slug": "purple-disco-machine-delivers-soundtrack-for-volkswagens-fire-ice-comeback",
+      "title": "Purple Disco Machine delivers soundtrack for Volkswagen’s “Fire + Ice” comeback",
+      "category": "Other",
+      "year": "2025",
+      "image": "assets/images/news/12.jpg"
+    },
+    {
+      "slug": "audrey-hobert-performs-first-showcase-in-germany-at-sony-music-berlin",
+      "title": "Audrey Hobert performs first showcase in Germany at Sony Music Berlin",
+      "category": "Artist",
+      "year": "2025",
+      "image": "assets/images/news/13.jpg"
+    },
+    {
+      "slug": "ozzy-osbourne-1948-2025",
+      "title": "Ozzy Osbourne, 1948-2025",
+      "category": "Artist",
+      "year": "2025",
+      "image": "assets/images/news/14.png"
+    },
+    {
+      "slug": "tyla-celebrates-gold-and-mixtape-in-berlin",
+      "title": "TYLA celebrates gold and mixtape in Berlin",
+      "category": "Artist",
+      "year": "2025",
+      "image": "assets/images/news/15.jpg"
+    },
+    {
+      "slug": "sony-music-celebrates-togetherness-at-elevate-each-other-festival",
+      "title": "Sony Music celebrates togetherness at “Elevate Each Other” festival",
+      "category": "Company",
+      "year": "2025",
+      "image": "assets/images/news/16.png"
+    },
+    {
+      "slug": "sony-music-celebrates-diversity-at-pride-party-in-berlin",
+      "title": "Sony Music Celebrates Diversity at Pride Party in Berlin",
+      "category": "Company",
+      "year": "2025",
+      "image": "assets/images/news/17.png"
+    },
+    {
+      "slug": "sony-music-gsa-premieres-value-festival-series",
+      "title": "Sony Music GSA Premieres Value Festival Series",
+      "category": "Company",
+      "year": "2025",
+      "image": "assets/images/news/18.jpg"
+    },
+    {
+      "slug": "abor-tynna-achieve-international-chart-successes",
+      "title": "Abor & Tynna Achieve International Chart Successes",
+      "category": "Artist",
+      "year": "2025",
+      "image": "assets/images/news/19.jpg"
+    },
+    {
+      "slug": "female-producer-prize-opens-application-phase-for-2025",
+      "title": "Female* Producer Prize Opens Application Phase for 2025",
+      "category": "Company",
+      "year": "2025",
+      "image": "assets/images/news/20.png"
+    },
+    {
+      "slug": "james-arthur-presents-pisces-album-film-in-berlin",
+      "title": "James Arthur Presents “PISCES” Album Film in Berlin",
+      "category": "Other",
+      "year": "2025",
+      "image": "assets/images/news/21.png"
+    },
+    {
+      "slug": "miley-cyrus-announces-ninth-album-something-beautiful",
+      "title": "Miley Cyrus Announces Ninth Album “Something Beautiful”",
+      "category": "Artist",
+      "year": "2025",
+      "image": "assets/images/news/22.jpg"
+    },
+    {
+      "slug": "sony-music-and-black-future-week-host-music-label-day-for-bipoc-in-berlin",
+      "title": "Sony Music and Black Future Week host Music Label Day for BIPoC in Berlin",
+      "category": "Company",
+      "year": "2025",
+      "image": "assets/images/news/23.png"
+    },
+    {
+      "slug": "tems-makes-history-as-first-african-female-artist-to-surpass-1-billion-spotify-streams-with-wait-for-u",
+      "title": "Tems Makes History as First African Female Artist to Surpass 1 Billion Spotify Streams with ‘Wait For U’",
+      "category": "Artist",
+      "year": "2025",
+      "image": "assets/images/news/24.png"
+    }
+  ]
+}
