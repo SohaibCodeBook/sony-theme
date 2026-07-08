@@ -1,5 +1,5 @@
 /**
- * News page — filter toggle, category filter, search, load more.
+ * News page — filter toggle, category filter, search, infinite scroll.
  */
 (function () {
 	'use strict';
@@ -24,6 +24,7 @@
 			year: '',
 			search: '',
 			visibleCount: perPage,
+			loading: false,
 		};
 
 		function normalize(value) {
@@ -56,6 +57,27 @@
 			return items.filter(matchesFilters);
 		}
 
+		function setLoadMoreVisible(show) {
+			if (!loadMore) {
+				return;
+			}
+
+			if (show) {
+				loadMore.classList.remove('is-hidden');
+				loadMore.removeAttribute('hidden');
+			} else {
+				loadMore.classList.add('is-hidden');
+				loadMore.setAttribute('hidden', 'hidden');
+			}
+		}
+
+		function setLoading(isLoading) {
+			state.loading = isLoading;
+			if (loadMore) {
+				loadMore.classList.toggle('is-loading', isLoading);
+			}
+		}
+
 		function render() {
 			var matched = getMatchedItems();
 			var shown = 0;
@@ -73,20 +95,27 @@
 				}
 			});
 
-			if (loadMore) {
-				if (shown < matched.length) {
-					loadMore.classList.remove('is-hidden');
-					loadMore.removeAttribute('hidden');
-				} else {
-					loadMore.classList.add('is-hidden');
-					loadMore.setAttribute('hidden', 'hidden');
-				}
-			}
+			setLoadMoreVisible(shown < matched.length);
+			setLoading(false);
 		}
 
 		function resetVisible() {
 			state.visibleCount = perPage;
 			render();
+		}
+
+		function loadNextBatch() {
+			var matched = getMatchedItems();
+			if (state.loading || state.visibleCount >= matched.length) {
+				return;
+			}
+
+			setLoading(true);
+
+			window.requestAnimationFrame(function () {
+				state.visibleCount += perPage;
+				render();
+			});
 		}
 
 		if (filterToggle && filterCats) {
@@ -219,9 +248,40 @@
 					return;
 				}
 				e.preventDefault();
-				state.visibleCount += perPage;
-				render();
+				loadNextBatch();
 			});
+
+			if ('IntersectionObserver' in window) {
+				var observer = new IntersectionObserver(
+					function (entries) {
+						entries.forEach(function (entry) {
+							if (entry.isIntersecting) {
+								loadNextBatch();
+							}
+						});
+					},
+					{
+						root: null,
+						rootMargin: '200px 0px',
+						threshold: 0,
+					}
+				);
+				observer.observe(loadMore);
+			} else {
+				window.addEventListener(
+					'scroll',
+					function () {
+						if (loadMore.classList.contains('is-hidden') || loadMore.hasAttribute('hidden')) {
+							return;
+						}
+						var rect = loadMore.getBoundingClientRect();
+						if (rect.top < window.innerHeight + 200) {
+							loadNextBatch();
+						}
+					},
+					{ passive: true }
+				);
+			}
 		}
 
 		document.addEventListener('click', function (e) {
