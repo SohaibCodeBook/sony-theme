@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SONY_MUSIC_VERSION', '1.7.2' );
+define( 'SONY_MUSIC_VERSION', '1.7.3' );
 define( 'SONY_MUSIC_DIR', get_template_directory() );
 define( 'SONY_MUSIC_URI', get_template_directory_uri() );
 
@@ -36,6 +36,7 @@ require_once SONY_MUSIC_DIR . '/inc/music-licensing.php';
 require_once SONY_MUSIC_DIR . '/inc/circle-studios.php';
 require_once SONY_MUSIC_DIR . '/inc/news.php';
 require_once SONY_MUSIC_DIR . '/inc/artists.php';
+require_once SONY_MUSIC_DIR . '/inc/imprint.php';
 require_once SONY_MUSIC_DIR . '/inc/logo.php';
 require_once SONY_MUSIC_DIR . '/inc/lang-fallback.php';
 require_once SONY_MUSIC_DIR . '/inc/menu-fallback.php';
@@ -191,6 +192,15 @@ function sony_music_enqueue_assets() {
 			array(),
 			sony_music_asset_version( '/assets/js/artists.js' ),
 			true
+		);
+	}
+
+	if ( is_page( 'imprint' ) ) {
+		wp_enqueue_style(
+			'sony-music-imprint',
+			SONY_MUSIC_URI . '/assets/css/imprint.css',
+			array( 'sony-music-style' ),
+			sony_music_asset_version( '/assets/css/imprint.css' )
 		);
 	}
 

@@ -25,6 +25,7 @@ function sony_music_required_pages() {
 		'Career'            => 'company/career',
 		'FAQ'               => 'faq',
 		'Contact'           => 'contact',
+		'Imprint'           => 'imprint',
 		'AI Usage Terms'    => 'ai-usage-terms',
 	);
 }
@@ -199,6 +200,7 @@ function sony_music_theme_activation() {
 
 	if ( ! is_wp_error( $footer_menu_id ) ) {
 		sony_music_add_menu_item( $footer_menu_id, 'Contact', home_url( '/contact/' ) );
+		sony_music_add_menu_item( $footer_menu_id, 'Imprint', home_url( '/imprint/' ) );
 		sony_music_add_menu_item( $footer_menu_id, 'Instagram', 'https://www.instagram.com/sonymusicde' );
 		sony_music_add_menu_item( $footer_menu_id, 'AI Usage Terms', home_url( '/ai-usage-terms/' ) );
 	}
